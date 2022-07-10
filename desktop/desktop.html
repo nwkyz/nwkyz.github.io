@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <title>NetworkYZ Desktop</title>
+    <link rel='Shortcut Icon' type='image/x-icon' href='./img/favicon.ico'>
+    <script type="text/javascript" src="./js/jquery-2.2.4.min.js"></script>
+    <link href="./css/animate.css" rel="stylesheet">
+    <script type="text/javascript" src="./component/layer-v3.0.3/layer/layer.js"></script>
+    <link rel="stylesheet" href="./component/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="./css/default.css" rel="stylesheet">
+    <script type="text/javascript" src="./js/win10.js"></script>
+	<script type="text/javascript" src="js/FileMen/shortcut-drawer.min.js"></script>
+	<link rel="stylesheet" href="js/FileMen/shortcut-drawer.min.css" />
+	<script type="text/javascript" src="js/disable_shortcuts_hidden.js"></script>
+    <style>
+        * {
+            font-family: "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu
+        }
+
+        /*磁贴自定义样式*/
+         .win10-block-content-text {
+             line-height: 44px;
+             text-align: center;
+             font-size: 16px;
+         }
+    </style>
+    <script>
+        Win10.onReady(function () {
+			
+            Win10.setBgUrl({
+                main: './img/wallpapers/main.jpg',
+                mobile: './img/wallpapers/mobile.jpg',
+            });
+
+            Win10.setAnimated([
+                'animated flip',
+                'animated bounceIn',
+            ], 0.01);
+        });
+    </script>
+</head>
+<body>
+<div id="win10">
+    <div class="desktop">
+        <div id="win10-shortcuts" class="shortcuts-hidden">
+			<!-- Desktop Icon Start -->
+            <div class="shortcut" onclick="location.href=('https://net.nwyz.eu.org/index.html')">
+                <img class="icon fa black" src="./img/icon/favicon.ico"/>
+                <div class="title">返回主页</div>
+            </div>
+            <div class="shortcut" onclick="Win10.openUrl('space.bilibili.com/442187426','<img class=\'icon\' src=\'./img/icon/MagBiliXS.png\'/>ExhYZ -442187426')">
+                <img class="icon fa magenta" src="./img/icon/MagBiliS.png"/>
+                <div class="title">ExhYZ bili</div>
+            </div>
+	        <div class="shortcut" onclick='Win10.openUrl("./AppData/2About/index.html","<i class=\"fa fa-info  icon blue\"></i>About")'>
+                 <i class="icon fa fa-fw fa-info blue" ></i>
+                 <div class="title">About</div>
+            </div>
+            <div class="shortcut" onclick='Win10.openUrl("classic.minecraft.net","<img class=\"icon\" src=\"./img/icon/Minecraft.jpg\"/>Minecraft Web")'>
+                <img class="icon" src="./img/icon/Minecraft.jpg"/>
+                <div class="title">Minecraft</div>
+            </div>
+	        <div class="shortcut" onclick='Win10.openUrl("./AppData/2HGAMES/index.html","<i class=\"fa fa-gamepad  icon green\"></i>HGames 2")'>
+                <i class="fa fa-gamepad  icon green"></i>
+                <div class="title">HGames</div>
+            </div>
+			<div class="shortcut" onclick='Win10.openUrl("https://beta.hack.chat/?yznetworkonlinechat-PRESS-ENTER-TO-SEND-MESSAGE-HereIsServerNo10599","<i class=\"fa fa-comments-o  icon black\"></i>hack.chat")'>
+                <i class="fa fa-comments  icon black"></i>
+                <div class="title">hack.chat</div>
+            </div>
+			<div class="shortcut" onclick='Win10.openUrl("https://o365ep.sharepoint.com/:f:/s/NetworkYZCD/EiR4ezPPhz5AgQ8FwSWwggUB3EcCGTp6I16wksA3gGz0bw?e=3mKrKI","<i class=\"fa fa-cloud  icon purple\"></i>Public Drive")'>
+			    <i class="fa fa-cloud  icon purple"></i>
+				<div class="title">Public Drive</div>
+			</div>
+	        <div class="shortcut" onclick='Win10.openUrl("./AppData/TEST/index.html","<i class=\"fa fa-flask  icon red\"></i>Lab")'>
+                <i class="fa fa-flask  icon red"></i>
+                <div class="title">Lab</div>
+            </div>
+            <!--<div class="shortcut" onclick='Win10.openUrl("./AppData/Chat/index.html","<i class=\"fa fa-comments  icon black-green\"></i>火钳刘明")'>
+                <i class="fa fa-comments  icon black-green"></i>
+                <div class="title">火钳刘明</div>
+            </div>-->
+			<!-- Desktop Icons Final -->
+	    </div>
+        <div id="win10-desktop-scene">
+		</div>
+    </div>
+    <div id="win10-menu" class="hidden">
+        <div class="list win10-menu-hidden animated animated-slideOutLeft">
+			<!-- Start Menu Start -->
+            <div class="item" onclick="Win10.exit()">
+                <i class="black icon fa fa-power-off fa-fw"></i><span class="title">关闭</span>
+            </div>
+			<div class="item">
+			    <i class="icon fa fa-gamepad fa-fw black-green"></i><span class="title">Games</span>
+			</div>
+			<div class="sub-item" onclick='Win10.openUrl("./AppData/HGAMES/index.html","<i class=\"fa fa-gamepad icon green\"></i>HGames [横屏效果更奈斯]")'>
+			    <i class="icon fa fa-gamepad fa-fw green"></i><span class="title">HGames</span>
+			</div>
+			<div class="sub-item" onclick="Win10.openUrl('classic.minecraft.net')">
+			    <img class="icon" src="./img/icon/Minecraft.jpg"/><span class="title">Minecraft Web</span>
+			</div>
+			<!-- Start Menu Final -->
+        </div>
+        <div class="blocks">
+            <div class="menu_group">
+				<!-- Start Menu Mag Start -->
+                <div class="title">WebApps</div>
+                <div class="block" loc="1,1" size="3,3">
+                    <div class="content" style="background: url('./img/icon/MagBili.png');background-size: cover" onclick="Win10.openUrl('space.bilibili.com/442187426','<img class=\'icon\' src=\'./img/icon/MagBiliXS.png\'/>ExhYZ -442187426')">
+                    </div>
+		        </div>
+	            <div class="block" loc="4,1" size="3,3" class="block">
+                    <div class="content" style="background: url('./img/icon/Minecraft.jpg');background-size: cover" onclick="Win10.openUrl('classic.minecraft.net','<img class=\'icon\' src=\'./img/icon/Minecraft.jpg\'/>Minecraft Web')">
+                 </div>
+                </div>
+				<div class="block" loc="1,4" size="3,1" class="block">
+                    <div class="content" style="background: url('./AppData/Sets/Calendar/MagCalendar13.png');background-size:cover" onclick='Win10.openUrl("./AppData/Sets/Calendar/index.html","<i class=\"fa fa-calendar icon white\"></i>Calendar")'>
+                 </div>
+                </div>
+				<!-- Start Menu Mag Final -->
+            </div>
+        </div>
+        <div id="win10-menu-switcher"></div>
+    </div>
+    <div id="win10_command_center" class="hidden_right">
+        <div class="title">
+            <h4 style="float: left">消息 </h4>
+            <span id="win10_btn_command_center_clean_all">清除</span>
+        </div>
+        <div class="msgs"></div>
+    </div>
+    <div id="win10_task_bar">
+        <div id="win10_btn_group_left" class="btn_group">
+            <div id="win10_btn_win" class="btn"><span class="fa fa-tv fa-spiner"></span></div>
+            <div class="btn" id="win10-btn-browser"><span class="fa fa-globe
+				"></span></div>
+        </div>
+        <div id="win10_btn_group_middle" class="btn_group">&nbsp;</div>
+        <div id="win10_btn_group_right" class="btn_group">
+            <div class="btn" id="win10_btn_time" onclick='Win10.openUrl("./AppData/Sets/Calendar/index.html","<i class=\"fa fa-calendar\"></i> Calendar (还没改)")'></div>
+            <div class="btn" id="win10_btn_command"><span id="win10-msg-nof" class="fa fa-comment-o"></span></div>
+            <div class="btn" id="win10_btn_show_desktop"></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

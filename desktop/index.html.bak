@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/login.css">
+  <title>NetworkYZ</title>
+</head>
+<body background="img/wallpapers/main.jpg">
+  <div class="container">
+    <div class="login-form">
+      <div class="text">
+        <p>NetworkYZ</p>
+      </div>
+	  <div class="textsmall">
+		<p>*网站正在改进 一些功能可能不稳定</p>
+	  </div>
+      <div class="form-item">
+        <input type="text" placeholder="os.typein.text::PSWD">
+        <!--input type="password" placeholder="密码"-->
+      </div>
+      <div onclick="window.open('./desktop.html','_self')" class="btn">GO!</div>
+      <div class="btn-back"></div>
+    </div>
+</div>
+</body>
+</html>

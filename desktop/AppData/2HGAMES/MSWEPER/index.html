@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Mineswepper HGames</title>
+    <link rel="stylesheet" type="text/css" href="index.css"/>
+  </style>
+    <style type="text/css">
+    body {
+	background-color: #7f7f7f;
+}
+    </style>
+</head>
+<body>
+<div style="background-color: #f8f8f8;width:100%;height:40px;position:fixed;top:0px;left:0px;right:0px;color:#050505;vertical-align:middle;">
+	Mineswepper-Exhnet HGames     
+	  <button onclick="location='../index.html'" style="vertical-align:middle;">返回首页(Modern)</button>
+</div>
+</br>
+<div id="JMS_main" class="main">
+        <table id="landmine"></table>
+    </div>
+	<center>
+	<div id="operation">
+	     <input type="button" id="begin" value="开始游戏" /><br />
+            <div class="tip">Still Left：<span class="light red" id="landMineCount">0</span> </div>
+            <div class="tip">Started: <span class="light f60" id="costTime">0</span> Seconds</div>
+      <fieldset style="width:30%;">
+                <legend>Size</legend>
+                <input type="radio" name="level" id="llevel" checked="checked" value="10" /><label for="llevel">10x10</label><br />
+                <input type="radio" name="level" id="mlevel" value="15" /><label for="mlevel">15x15</label><br />
+                <input type="radio" name="level" id="hlevel" value="20" /><label for="hlevel">20x20</label><br />
+      </fieldset>
+      </div>
+	</center>
+    <script src="jms.js"></script>
+    <script src="index.js"></script>
