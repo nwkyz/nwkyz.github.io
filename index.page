@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<pf:Page xmlns:pf="http://schemas.getpagefabric.com/2020/pageDefinition" id="80f6393b-5d8c-430d-8db6-f607cc9e1d08">
+<pf:Variants>
+<pf:Variant lang='zh'>
+<pf:PageLayoutProperties><![CDATA[]]></pf:PageLayoutProperties>
+<pf:PageModifiedDate><![CDATA[2022-07-11T11:19:19]]></pf:PageModifiedDate>
+<pf:PageTitle><![CDATA[]]></pf:PageTitle>
+<pf:PageLayout><![CDATA[default]]></pf:PageLayout>
+<pf:PageTemplate><![CDATA[]]></pf:PageTemplate>
+<pf:PageOGImage><![CDATA[]]></pf:PageOGImage>
+<pf:PageOGTitle><![CDATA[]]></pf:PageOGTitle>
+<pf:PageOGDescription><![CDATA[]]></pf:PageOGDescription>
+<pf:PageMetaDescription><![CDATA[]]></pf:PageMetaDescription>
+<pf:PageMetaKeywords><![CDATA[]]></pf:PageMetaKeywords>
+<pf:VisualNotesData><![CDATA[]]></pf:VisualNotesData>
+<pf:PageHeader>
+<![CDATA[
+
+<div class="pfBox height-180 padding-0 margin-0 content-horizontal-align-default width-auto"><div class="pfBox syncWithContentWidth width-s"><pfhnav class="pfHNav" menuid="f7533922f509426aa864b4124b5255ea"></pfhnav>
+
+
+</div><div class="pfBox padding-5 text-white background-primary width-auto">
+    <div class="boxContent">
+      <p style="text-align: center;">新域名 net.nwyz.eu.org&nbsp;启用</p>
+      </div>
+    </div><div class="pfBox columns-halign-center bgImgFill background-neutralLighter height-380 width-s" style=""><div class="pfCardContainer cardsColumns columns-50 syncWithContentWidth columns-valign-center columns-halign-default">
+           
+    <div class="pfCard content-vertical-align-center padding-10">
+    <div editor-selectable="false" class="cardPlaceholder">
+      <div editor-selectable="false" class="cardContent">
+        
+      <p editor-selectable="false"></p><div class="pfStackPanel stack-vertical space-10"><h1 class="text-primary">
+    Hi, ExhYZ here.</h1><article class="text-align-default">
+    <p>A site with Microsoft Fluent Design, built with 2-OS Web Designer and PageFabric, some experiments, desktop, or ISOs later maybe.</p><p><br></p>
+    </article><div class="pfStackPanel stack-horizontal space-20 content-horizontal-align-default"><a class="pfButton notInline button-primay button-size-default" href="/apps/index.html">
+      <div class="pfStackPanel stack-horizontal">
+      <span class="pfSymbol smallSize  symbol-fluent"></span>
+      <p>Applications</p>
+      </div>
+    </a><a class="pfButton notInline button-primay button-size-default" href="/desktop/desktop.html">
+      <div class="pfStackPanel stack-horizontal">
+      <span class="pfSymbol smallSize  symbol-fluent">ﳖ</span>
+      <p>Desktop</p>
+      </div>
+    </a></div></div></div>
+    </div>
+  </div>
+<div class="pfCard padding-30" editor-selectable="false">
+  <div editor-selectable="false" class="cardContent"></div>
+</div>
+</div>
+              
+          
+        
+      </div></div>
+
+]]>
+</pf:PageHeader>
+<pf:LeftSide>
+<![CDATA[]]>
+</pf:LeftSide>
+<pf:RightSide>
+<![CDATA[]]>
+</pf:RightSide>
+<pf:PageContent>
+<![CDATA[]]>
+</pf:PageContent>
+<pf:PageFooter>
+<![CDATA[
+
+<div class="pfBox background-themeLighterAlt padding-0 content-vertical-align-center height-180 content-horizontal-align-default"><div class="pfBox syncWithContentWidth content-horizontal-align-default width-s"><div class="pfCardContainer cardsColumns columns-valign-top columns-100"><div class="pfCard padding-default background-trans content-horizontal-align-default">
+  <div class="cardPlaceholder">
+    <div class="cardContent">
+    <article>
+      <p><strong>ExhYZ</strong></p><p></p><p>Built with PageFabric and 2-OS Web Designer.</p><p><br></p><p>2022</p>
+      </article>
+    </div>
+  </div>
+</div></div></div></div>
+
+]]>
+</pf:PageFooter>
+</pf:Variant>
+</pf:Variants>
+<pf:Notes>
+</pf:Notes>
+</pf:Page>
