@@ -55,4 +55,10 @@
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
+  <url>
+    <loc>/apps/chat-mobile/channel1m.html</loc>
+    <lastmod>2022-08-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1</priority>
+  </url>
 </urlset>
