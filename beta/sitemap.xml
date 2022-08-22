@@ -2,92 +2,92 @@
 <!--Created with PageFabric. https://pagefabric-app.com-->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>/404.html</loc>
+    <lastmod>2022-08-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1</priority>
+  </url>
+  <url>
     <loc>/about.html</loc>
-    <lastmod>2022-08-12</lastmod>
+    <lastmod>2022-08-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
     <loc>/branches.html</loc>
-    <lastmod>2022-08-12</lastmod>
+    <lastmod>2022-08-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
     <loc>/changelog.html</loc>
-    <lastmod>2022-08-12</lastmod>
+    <lastmod>2022-08-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
     <loc>/index.html</loc>
-    <lastmod>2022-08-12</lastmod>
+    <lastmod>2022-08-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
     <loc>/apps/chat.html</loc>
-    <lastmod>2022-08-12</lastmod>
+    <lastmod>2022-08-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
     <loc>/apps/covid.html</loc>
-    <lastmod>2022-08-12</lastmod>
+    <lastmod>2022-08-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
     <loc>/apps/index.html</loc>
-    <lastmod>2022-08-12</lastmod>
+    <lastmod>2022-08-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
     <loc>/apps/osimages.html</loc>
-    <lastmod>2022-08-12</lastmod>
+    <lastmod>2022-08-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
     <loc>/apps/weather.html</loc>
-    <lastmod>2022-08-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1</priority>
-  </url>
-  <url>
-    <loc>/error/404.html</loc>
-    <lastmod>2022-08-12</lastmod>
+    <lastmod>2022-08-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
     <loc>/error/codes.html</loc>
-    <lastmod>2022-08-12</lastmod>
+    <lastmod>2022-08-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
     <loc>/apps/chat/channel1.html</loc>
-    <lastmod>2022-08-12</lastmod>
+    <lastmod>2022-08-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
     <loc>/apps/chat/channel2.html</loc>
-    <lastmod>2022-08-12</lastmod>
+    <lastmod>2022-08-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
     <loc>/apps/chat-mobile/channel1m.html</loc>
-    <lastmod>2022-08-12</lastmod>
+    <lastmod>2022-08-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
     <loc>/apps/chat-mobile/channel2m.html</loc>
-    <lastmod>2022-08-12</lastmod>
+    <lastmod>2022-08-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
