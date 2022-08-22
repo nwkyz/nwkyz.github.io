@@ -38,6 +38,12 @@
     <priority>1</priority>
   </url>
   <url>
+    <loc>/apps/covid-mobile.html</loc>
+    <lastmod>2022-08-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1</priority>
+  </url>
+  <url>
     <loc>/apps/covid.html</loc>
     <lastmod>2022-08-22</lastmod>
     <changefreq>monthly</changefreq>
