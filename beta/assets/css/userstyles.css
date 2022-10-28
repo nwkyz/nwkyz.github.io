@@ -1,10 +1,10 @@
 .pfcs_38e719d7
 {
 background-color:#BFBFBF;
-border-left:0px solid transparent;
-border-right:0px solid transparent;
-border-top:0px solid transparent;
-border-bottom:0px solid transparent;
+
+
+
+border:0px solid transparent;
 font-family: 'Segoe UI', 'WeblySleekUIRegular', Tahoma, -apple-system,BlinkMacSystemFont,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
 color: var(--neutralDark);
 text-align:left;
@@ -20,10 +20,10 @@ font-style:normal;
 .pfcs_1cd76742
 {
 background-color:var(--white);
-border-left:0px solid transparent;
-border-right:0px solid transparent;
-border-top:0px solid transparent;
-border-bottom:0px solid transparent;
+
+
+
+border:0px solid transparent;
 display:block;color: #94FF6D;
 font-size:1em;
 text-align:left;
@@ -39,14 +39,10 @@ font-style:normal;
 .pfcs_c166984e
 {
 background-color:#00BA00;
-border-left:0px solid transparent;
-border-right:0px solid transparent;
-border-top:0px solid transparent;
-border-bottom:0px solid transparent;
-border-top-left-radius:4px;
-border-top-right-radius:4px;
-border-bottom-left-radius:4px;
-border-bottom-right-radius:4px;
+
+
+border-radius:4px 4px 4px 4px !important;
+border:0px solid transparent;
 color: var(--neutralDark);
 text-align:left;
 font-weight:bold;
@@ -56,10 +52,10 @@ font-style:normal;
 .pfcs_3921fdac
 {
 background-color:var(--transparent);
-border-left:0px solid transparent;
-border-right:0px solid transparent;
-border-top:0px solid transparent;
-border-bottom:0px solid transparent;
+
+
+
+border:0px solid transparent;
 color: var(--themePrimary);
 text-align:left;
 font-style:normal;
@@ -67,14 +63,10 @@ font-style:normal;
 .pfcs_3921fdac:hover
 {
 background-color:var(--neutralTertiaryAlt);
-border-left:0px solid transparent;
-border-right:0px solid transparent;
-border-top:0px solid transparent;
-border-bottom:0px solid transparent;
-border-top-left-radius:var(--corner-radius);
-border-top-right-radius:var(--corner-radius);
-border-bottom-left-radius:var(--corner-radius);
-border-bottom-right-radius:var(--corner-radius);
+
+
+border-radius:var(--corner-radius) var(--corner-radius) var(--corner-radius) var(--corner-radius) !important;
+border:0px solid transparent;
 color: var(--themePrimary);
 text-align:left;
 font-style:normal;
@@ -82,10 +74,10 @@ font-style:normal;
 .pfcs_3921fdac:active
 {
 background-color:var(--neutralQuaternary);
-border-left:0px solid transparent;
-border-right:0px solid transparent;
-border-top:0px solid transparent;
-border-bottom:0px solid transparent;
+
+
+
+border:0px solid transparent;
 color: var(--themeTertiary);
 text-align:left;
 font-style:normal;
@@ -94,10 +86,10 @@ font-style:normal;
 .pfcs_3b755d7d
 {
 background-color:var(--white);
-border-left:0px solid transparent;
-border-right:0px solid transparent;
-border-top:0px solid transparent;
-border-bottom:0px solid transparent;
+
+
+
+border:0px solid transparent;
 color: #000000;
 text-align:left;
 font-style:normal;

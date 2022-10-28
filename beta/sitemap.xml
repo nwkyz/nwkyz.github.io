@@ -2,116 +2,116 @@
 <!--Created with PageFabric. https://pagefabric-app.com-->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>/404.html</loc>
-    <lastmod>2022-09-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1</priority>
-  </url>
-  <url>
-    <loc>/about.html</loc>
-    <lastmod>2022-09-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1</priority>
-  </url>
-  <url>
     <loc>/branches.html</loc>
-    <lastmod>2022-09-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1</priority>
-  </url>
-  <url>
-    <loc>/changelog.html</loc>
-    <lastmod>2022-09-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1</priority>
-  </url>
-  <url>
-    <loc>/index.html</loc>
-    <lastmod>2022-09-17</lastmod>
+    <lastmod>2022-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
     <loc>/insiderTest.html</loc>
-    <lastmod>2022-09-17</lastmod>
+    <lastmod>2022-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
-    <loc>/apps/chat.html</loc>
-    <lastmod>2022-09-17</lastmod>
+    <loc>/index.html</loc>
+    <lastmod>2022-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
-    <loc>/apps/covid.html</loc>
-    <lastmod>2022-09-17</lastmod>
+    <loc>/404.html</loc>
+    <lastmod>2022-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
-    <loc>/apps/index.html</loc>
-    <lastmod>2022-09-17</lastmod>
+    <loc>/changelog.html</loc>
+    <lastmod>2022-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
-    <loc>/apps/osimages.html</loc>
-    <lastmod>2022-09-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1</priority>
-  </url>
-  <url>
-    <loc>/apps/weather.html</loc>
-    <lastmod>2022-09-17</lastmod>
+    <loc>/about.html</loc>
+    <lastmod>2022-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
     <loc>/error/codes.html</loc>
-    <lastmod>2022-09-17</lastmod>
+    <lastmod>2022-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
-    <loc>/apps/chat/channel1.html</loc>
-    <lastmod>2022-09-17</lastmod>
+    <loc>/apps/osimages.html</loc>
+    <lastmod>2022-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
-    <loc>/apps/chat/channel2.html</loc>
-    <lastmod>2022-09-17</lastmod>
+    <loc>/apps/index.html</loc>
+    <lastmod>2022-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
-    <loc>/apps/chat-mobile/channel1m.html</loc>
-    <lastmod>2022-09-17</lastmod>
+    <loc>/apps/covid.html</loc>
+    <lastmod>2022-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>/apps/weather.html</loc>
+    <lastmod>2022-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>/apps/chat.html</loc>
+    <lastmod>2022-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
     <loc>/apps/chat-mobile/channel2m.html</loc>
-    <lastmod>2022-09-17</lastmod>
+    <lastmod>2022-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>/apps/chat-mobile/channel1m.html</loc>
+    <lastmod>2022-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>/apps/chat/channel2.html</loc>
+    <lastmod>2022-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>/apps/chat/channel1.html</loc>
+    <lastmod>2022-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
     <loc>/apps/osimages/w11dev.html</loc>
-    <lastmod>2022-09-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1</priority>
-  </url>
-  <url>
-    <loc>/apps/osimages/w11lite.html</loc>
-    <lastmod>2022-09-17</lastmod>
+    <lastmod>2022-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
     <loc>/apps/osimages/w11official.html</loc>
-    <lastmod>2022-09-17</lastmod>
+    <lastmod>2022-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>/apps/osimages/w11lite.html</loc>
+    <lastmod>2022-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
