@@ -9,15 +9,16 @@
     <lastBuildDate>Tue, 08 Nov 2022 22:06:55 +0800</lastBuildDate><atom:link href="https://www.nwyz.eu.org/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Create Your Own Website and Custom Domain Names for Free with Github Pages - Complete Step-By-Step Tutorial For Beginners</title>
-      <link>https://www.nwyz.eu.org/blog/posts/the-start/</link>
+      <link>https://www.nwyz.eu.org/blog/posts/001-001-create-website/</link>
       <pubDate>Tue, 08 Nov 2022 22:06:55 +0800</pubDate>
       
-      <guid>https://www.nwyz.eu.org/blog/posts/the-start/</guid>
-      <description>Before we start You can create your own website for free in 10 minutes with this tutorial without coding.
-CONTENTS
+      <guid>https://www.nwyz.eu.org/blog/posts/001-001-create-website/</guid>
+      <description>Before we start You can create your own website for free in less than 30 minutes with this tutorial without coding.
+CONTENTS ：
 Part 1: Create a Github Pages Repository
 Part 2: Create your site content
-Part 3: Customize domain name
+Part 3: Push your site files to your repository
+Part 4: Customize domain name
 Part 1: Create a Github Pages repository We will use a Github repository to store our website files, so we should create a Github account (if not yet) and create a repo.</description>
     </item>
     

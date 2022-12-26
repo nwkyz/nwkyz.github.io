@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html><head>
-	<meta name="generator" content="Hugo 0.105.0">
+	<meta name="generator" content="Hugo 0.109.0">
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -18,7 +18,24 @@
     <script src="https://unpkg.com/@master/styles@1.13.0"></script>
     <script src="https://unpkg.com/master-styles-group"></script>
     <script src="https://unpkg.com/themes.js"></script>
-    <script>window.themes = window.themes || new window.Themes()</script></head>
+    <script>window.themes = window.themes || new window.Themes()</script><style>
+    @media screen and (min-width: 769px) {
+         
+        .post-content input[type="checkbox"]:checked ~ label > img {
+            transform: scale(1.6);
+            cursor: zoom-out;
+            position: relative;
+            z-index: 999;
+        }
+    
+        .post-content img.zoomCheck {
+            transition: transform 0.15s ease;
+            z-index: 999;
+            cursor: zoom-in;
+        }
+    }
+    </style>
+    </head>
 <body class="bg:fade-84@dark font:fade-16@dark">
     <nav class="w:full h:90 fixed bg:fade-84/.95@dark bg:white z:1000">
     <div class="
@@ -85,7 +102,7 @@
 "></div>
 <h5 class="my:1em"></h5>
     <h1 class="my:1em">Blog</h1><div class="mb:12 py:8">
-    <a class="f:18! font:semibold! f:fade-30! text-decoration:none f:fade-10!:hover transition:150ms;ease-in" href="https://www.nwyz.eu.org/blog/posts/the-start/">
+    <a class="f:18! font:semibold! f:fade-30! text-decoration:none f:fade-10!:hover transition:150ms;ease-in" href="https://www.nwyz.eu.org/blog/posts/001-001-create-website/">
         Create Your Own Website and Custom Domain Names for Free with Github Pages - Complete Step-By-Step Tutorial For Beginners
     </a>
     <div class="mt:12 f:14 f:fade-60"><time>Nov 8, 2022</time></div>
