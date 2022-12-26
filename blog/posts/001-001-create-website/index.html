@@ -225,11 +225,9 @@ Part 1: Create a Github Pages repository We will use a Github repository to stor
 <li><code>XXX.gq</code> with Freenom&rsquo;s service</li>
 </ul>
 <h4 id="1-get-a-domain-name">1. Get a domain name</h4>
-<h5 id="option-1-with-freenoms-service-recommended-for-begginners">Option 1: With Freenom&rsquo;s service (recommended for begginners)</h5>
-<h5 id="a-get-a-domain-name">a. Get a domain name</h5>
-<p>Visit the site <a href="https://www.freenom.com">www.freenom.com</a> and type the prefix you want in the &ldquo;Find a new FREE domain&rdquo; and then click &ldquo;Check Avaliability&rdquo;. If it&rsquo;s avaliable, just click the blue &ldquo;Get it now&rdquo; and then the green &ldquo;Checkout&rdquo;. In the &ldquo;Period&rdquo; column, you can change the expiration date up to 12 Months for free, <em>(you can do this again after 12 months, if you don&rsquo;t want to do this, you can try the second option with eu.org&rsquo;s service)</em>. Click &ldquo;Continue&rdquo; then enter your email and click &ldquo;Verify My Email Address&rdquo;. You&rsquo;ll find a verify email in your inbox soon. If there&rsquo;s not, check if it&rsquo;s in the junk list or if the email address you typed is invalid. If you got the email, just follow the guide and verify it.</p>
+<p>Visit the site <a href="https://www.freenom.com">www.freenom.com</a> and type the prefix you want in the &ldquo;Find a new FREE domain&rdquo; and then click &ldquo;Check Avaliability&rdquo;. If it&rsquo;s avaliable, just click the blue &ldquo;Get it now&rdquo; and then the green &ldquo;Checkout&rdquo;. In the &ldquo;Period&rdquo; column, you can change the expiration date up to 12 Months for free, <em>(you can do this again after 12 months, I will post another blog later for a permnant service)</em>. Click &ldquo;Continue&rdquo; then enter your email and click &ldquo;Verify My Email Address&rdquo;. You&rsquo;ll find a verify email in your inbox soon. If there&rsquo;s not, check if it&rsquo;s in the junk list or if the email address you typed is invalid. If you got the email, just follow the guide and verify it.</p>
 <p>Then, back to the freenom&rsquo;s checkout page and buy the domain for $0.00USD. <strong>There aren&rsquo;t any requirements for a credit card or payments. If there is, check if the domain you chosen is free.</strong></p>
-<h5 id="b-configure-the-dns-settings">b. Configure the DNS settings</h5>
+<h4 id="2-configure-the-dns-settings">2. Configure the DNS settings</h4>
 <p>Go to <a href="https://my.freenom.com/clientarea.php?action=domains">&ldquo;My Domains&rdquo;</a> on Freemon, then click &ldquo;Manage Domain&rdquo; on the right of your domain name. Click <strong>&ldquo;Management Tools&rdquo; &gt; &ldquo;Nameservers&rdquo;</strong>, make sure it points to <strong>&ldquo;Use default nameservers (Freenom Nameservers)&rdquo;</strong> and then click <strong>&ldquo;Manage Freenom DNS&rdquo;</strong>.</p>
 <p>Now:</p>
 <ul>
@@ -239,14 +237,14 @@ Part 1: Create a Github Pages repository We will use a Github repository to stor
 <li>Set &ldquo;Target&rdquo; to your github domain name (looks like xxxx.github.io, it&rsquo;s also your site repository name)</li>
 <li>Click &ldquo;Save Changes&rdquo;</li>
 </ul>
-<h4 id="2-apply-changes-to-github-repository">2. Apply changes to Github repository</h4>
+<h4 id="3-apply-changes-to-github-repository">3. Apply changes to Github repository</h4>
 <p>Now, we set up our own domain name and DNS settings. We should also create a <code>CNAME</code> file in the root directory of your repository so that Github can send its domain name to yours.</p>
 <p>Go to your repository page, click &ldquo;Add file&rdquo; then &ldquo;Create a new file&rdquo;.</p>
 <p><a href="https://i.postimg.cc/x1TbQ5sR/addcname.png"><img src="https://i.postimg.cc/x1TbQ5sR/addcname.png" alt="Add CNAME"></a></p>
 <p>Type <code>CNAME</code> in &ldquo;Name your file&rdquo; and then type your own domain name below in the file</p>
 <p><a href="https://i.postimg.cc/c1FSjcnZ/cname.png"><img src="https://i.postimg.cc/c1FSjcnZ/cname.png" alt="Edit CNAME"></a></p>
 <p>Then, scroll down and click &ldquo;Commit new file&rdquo;</p>
-<h4 id="3-all-done">3. All Done!</h4>
+<h4 id="4-all-done">4. All Done!</h4>
 <p>After a few minutes, you can visit your own site with both <code>xxx.github.io</code> and <code>www + your own domain name</code> .</p>
 <hr>
 <h2 id="we-did-this">We did this!</h2>
