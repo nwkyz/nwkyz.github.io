@@ -43,7 +43,7 @@ Part 1: Create a Github Pages repository We will use a Github repository to stor
 &lt;p&gt;&lt;em&gt;PS: If there&amp;rsquo;s any problem, please create a comment below this blog post&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&#34;part-2-create-your-site-content&#34;&gt;Part 2: Create your site content&lt;/h2&gt;
 &lt;p&gt;We just finished creating Github repository, but our site needs some content. So this part will tell you how to create website contents easily without coding.&lt;/p&gt;
-&lt;h4 id=&#34;part-2-1-software&#34;&gt;Part 2-1: Software&lt;/h4&gt;
+&lt;h4 id=&#34;software&#34;&gt;Software&lt;/h4&gt;
 &lt;p&gt;There are many frameworks to create site contents, in this part, I&amp;rsquo;ll introduce how to use Hugo and PageFabric to create a beautiful site, both of them are free software.&lt;/p&gt;
 &lt;h4 id=&#34;comparison&#34;&gt;Comparison&lt;/h4&gt;
 &lt;p&gt;PageFabric - Create beautiful websites without coding &lt;a href=&#34;https://pagefabric-app.com/&#34;&gt;(Official Site)&lt;/a&gt; :&lt;/p&gt;
@@ -87,7 +87,7 @@ Part 1: Create a Github Pages repository We will use a Github repository to stor
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;For more details, I will make another tutorial post later&lt;/p&gt;
+&lt;p&gt;For more details, I will make another tutorial post later.&lt;/p&gt;
 &lt;h2 id=&#34;part-3-release-your-website&#34;&gt;Part 3: Release your website&lt;/h2&gt;
 &lt;p&gt;We&amp;rsquo;ve just created our first webpage and now we should push our site files from local to your Github repository with &lt;strong&gt;GitHub Desktop&lt;/strong&gt; application.&lt;/p&gt;
 &lt;h4 id=&#34;1-install-github-desktop&#34;&gt;1. Install Github Desktop&lt;/h4&gt;
