@@ -15,11 +15,10 @@
       
       <guid>https://www.nwyz.eu.org/blog/posts/001-002-markdown-crashcourse/</guid>
       <description>Before we start Hi! I&amp;rsquo;m back, today we are going to use Markdown, which is a powerful lightweight markup language for creating beautiful formatted text using only a text editor.
-Part 1: Create a Markdown file TESTING 2 - 3 - 4 - 5</description>
+Part 1: Create a Markdown file </description>
       <content>&lt;h2 id=&#34;before-we-start&#34;&gt;Before we start&lt;/h2&gt;
 &lt;p&gt;Hi! I&amp;rsquo;m back, today we are going to use Markdown, which is a powerful lightweight markup language for creating beautiful formatted text using only a text editor.&lt;/p&gt;
 &lt;h2 id=&#34;part-1-create-a-markdown-file&#34;&gt;Part 1: Create a Markdown file&lt;/h2&gt;
-&lt;p&gt;TESTING 2 - 3 - 4 - 5&lt;/p&gt;
 </content>
     </item>
     
@@ -107,7 +106,7 @@ Part 1: Create a Github Pages repository We will use a Github repository to stor
 &lt;p&gt;We&amp;rsquo;ve just created our first webpage and now we should push our site files from local to your Github repository with &lt;strong&gt;GitHub Desktop&lt;/strong&gt; application.&lt;/p&gt;
 &lt;h4 id=&#34;1-install-github-desktop&#34;&gt;1. Install Github Desktop&lt;/h4&gt;
 &lt;p&gt;&lt;strong&gt;On Windows or macOS:&lt;/strong&gt; You can install this easily. Visit the site &lt;a href=&#34;https://desktop.github.com/&#34;&gt;https://desktop.github.com/&lt;/a&gt; and click &lt;strong&gt;Download for Windows (64-bit)&lt;/strong&gt; or &lt;strong&gt;Download for macOS&lt;/strong&gt; then you can easily install with the installer.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;On Linux:&lt;/strong&gt; Github doesn&amp;rsquo;t have an official application for Linux. But thanks to shiftkey/desktop, which is working to support Linux platform, we can use Github Desktop based on Electron on Linux. Visit the repo &lt;a href=&#34;https://github.com/shiftkey/desktop/releases/&#34;&gt;https://github.com/shiftkey/desktop/releases/&lt;/a&gt; and &lt;strong&gt;download the .deb/.rpm/.Appimage file&lt;/strong&gt; of the latest release. &lt;em&gt;If you&amp;rsquo;re using debian/ubuntu based distros that uses dpkg, you should download the .deb one; if you&amp;rsquo;re using RedHat based distros, you should download the .rpm one, or you can &lt;strong&gt;choose the .Appimage one if you aren&amp;rsquo;t sure&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;On Linux:&lt;/strong&gt; Github doesn&amp;rsquo;t have an official application for Linux. But thanks to shiftkey/desktop, which is working to support Linux platform, we can use Github Desktop based on Electron on Linux. Visit the repo &lt;a href=&#34;https://github.com/shiftkey/desktop/releases/&#34;&gt;(Click to visit)&lt;/a&gt; and &lt;strong&gt;download the .deb/.rpm/.Appimage file&lt;/strong&gt; of the latest release. &lt;em&gt;If you&amp;rsquo;re using debian/ubuntu based distros that uses dpkg, you should download the .deb one; if you&amp;rsquo;re using RedHat based distros, you should download the .rpm one, or you can &lt;strong&gt;choose the .Appimage one if you aren&amp;rsquo;t sure&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;If you chosen the .Appimage one: Just double click on the file and Github Desktop will launch. If it doesn&amp;rsquo;t work, right click on the file and click Properties, then enable &amp;ldquo;Allow this file to run as a program&amp;rdquo; in the Permissions tab, and double click on the file again.&lt;/p&gt;
