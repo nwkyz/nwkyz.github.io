@@ -7,7 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright ExhYZ 2018-</copyright>
-    <lastBuildDate>Thu, 05 Jan 2023 16:42:21 +0800</lastBuildDate><atom:link href="https://www.nwyz.eu.org/blog/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Jan 2023 08:28:01 +0800</lastBuildDate><atom:link href="https://www.nwyz.eu.org/blog/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown Crash Course For Beginners</title>
+      <link>https://www.nwyz.eu.org/blog/posts/001-002-markdown-crashcourse/</link>
+      <pubDate>Fri, 06 Jan 2023 08:28:01 +0800</pubDate>
+      
+      <guid>https://www.nwyz.eu.org/blog/posts/001-002-markdown-crashcourse/</guid>
+      <description>Before we start Hi! I&amp;rsquo;m back, today we are going to use Markdown, which is a powerful</description>
+      <content>&lt;h2 id=&#34;before-we-start&#34;&gt;Before we start&lt;/h2&gt;
+&lt;p&gt;Hi! I&amp;rsquo;m back, today we are going to use Markdown, which is a powerful&lt;/p&gt;
+</content>
+    </item>
+    
     <item>
       <title>Create Your Own Website &#43; Custom Domain Names for Free with Github Pages - Complete Step-By-Step Tutorial For Beginners</title>
       <link>https://www.nwyz.eu.org/blog/posts/001-001-create-website/</link>
@@ -15,20 +27,11 @@
       
       <guid>https://www.nwyz.eu.org/blog/posts/001-001-create-website/</guid>
       <description>Before we start You can create your own website for free in less than 30 minutes with this tutorial without coding.
-CONTENTS ：
-Part 1: Create a Github Pages Repository
-Part 2: Create your site content
-Part 3: Push your site files to your repository
-Part 4: Customize domain name
-Part 1: Create a Github Pages repository We will use a Github repository to store our website files, so we should create a Github account (if not yet) and create a repo.</description>
+Part 1: Create a Github Pages repository We will use a Github repository to store our website files, so we should create a Github account (if not yet) and create a repo. It&amp;rsquo;s easy, just do the following steps:
+0. Create a Github account (if you don&amp;rsquo;t have one yet) We can go to Join Github (Click to jump) and register an account.</description>
       <content>&lt;hr&gt;
 &lt;h2 id=&#34;before-we-start&#34;&gt;Before we start&lt;/h2&gt;
 &lt;p&gt;You can create your own website for free in less than 30 minutes with this tutorial without coding.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;CONTENTS ：&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Part 1: Create a Github Pages Repository&lt;/p&gt;
-&lt;p&gt;Part 2: Create your site content&lt;/p&gt;
-&lt;p&gt;Part 3: Push your site files to your repository&lt;/p&gt;
-&lt;p&gt;Part 4: Customize domain name&lt;/p&gt;
 &lt;h2 id=&#34;part-1-create-a-github-pages-repository&#34;&gt;Part 1: Create a Github Pages repository&lt;/h2&gt;
 &lt;p&gt;We will use a Github repository to store our website files, so we should create a Github account (if not yet) and create a repo. It&amp;rsquo;s easy, just do the following steps:&lt;/p&gt;
 &lt;h4 id=&#34;0-create-a-github-account-if-you-dont-have-one-yet&#34;&gt;0. Create a Github account (if you don&amp;rsquo;t have one yet)&lt;/h4&gt;
@@ -116,7 +119,7 @@ Part 1: Create a Github Pages repository We will use a Github repository to stor
 &lt;ul&gt;
 &lt;li&gt;Launch Github Desktop&lt;/li&gt;
 &lt;li&gt;Log into your Github account&lt;/li&gt;
-&lt;li&gt;Choose your &lt;em&gt;usrname.github.io&lt;/em&gt; repository then pick a local directory to store your repository files&lt;/li&gt;
+&lt;li&gt;Choose your &lt;em&gt;username.github.io&lt;/em&gt; repository then pick a local directory to store your repository files&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;After the 3 steps, you can see a interface just like this and a &lt;em&gt;username.github.io&lt;/em&gt; folder as your local repository directory:&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://i.postimg.cc/GpzB3M5Z/ghdesktop.png&#34;&gt;&lt;img src=&#34;https://i.postimg.cc/GpzB3M5Z/ghdesktop.png&#34; alt=&#34;Github Desktop application homepage&#34; title=&#34;Github Desktop&#34;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -128,7 +131,7 @@ Part 1: Create a Github Pages repository We will use a Github repository to stor
 &lt;p&gt;If you want to change the domain name, just follow the Part 4.&lt;/p&gt;
 &lt;p&gt;You can change the domain name to the following examples for free :&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;XXX.eu.org&lt;/code&gt;  with eu.org&amp;rsquo;s service (not recommended for begginners)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;XXX.eu.org&lt;/code&gt;  with eu.org&amp;rsquo;s service (not recommended for beginners)&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;XXX.tk&lt;/code&gt; with Freenom&amp;rsquo;s service&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;XXX.ml&lt;/code&gt; with Freenom&amp;rsquo;s service&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;XXX.ga&lt;/code&gt; with Freenom&amp;rsquo;s service&lt;/li&gt;
@@ -136,8 +139,8 @@ Part 1: Create a Github Pages repository We will use a Github repository to stor
 &lt;li&gt;&lt;code&gt;XXX.gq&lt;/code&gt; with Freenom&amp;rsquo;s service&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;1-get-a-domain-name&#34;&gt;1. Get a domain name&lt;/h4&gt;
-&lt;p&gt;Visit the site &lt;a href=&#34;https://www.freenom.com&#34;&gt;www.freenom.com&lt;/a&gt; and type the prefix you want in the &amp;ldquo;Find a new FREE domain&amp;rdquo; and then click &amp;ldquo;Check Avaliability&amp;rdquo;. If it&amp;rsquo;s avaliable, just click the blue &amp;ldquo;Get it now&amp;rdquo; and then the green &amp;ldquo;Checkout&amp;rdquo;. In the &amp;ldquo;Period&amp;rdquo; column, you can change the expiration date up to 12 Months for free, &lt;em&gt;(you can do this again after 12 months, I will post another blog later for a permnant service)&lt;/em&gt;. Click &amp;ldquo;Continue&amp;rdquo; then enter your email and click &amp;ldquo;Verify My Email Address&amp;rdquo;. You&amp;rsquo;ll find a verify email in your inbox soon. If there&amp;rsquo;s not, check if it&amp;rsquo;s in the junk list or if the email address you typed is invalid. If you got the email, just follow the guide and verify it.&lt;/p&gt;
-&lt;p&gt;Then, back to the freenom&amp;rsquo;s checkout page and buy the domain for $0.00USD. &lt;strong&gt;There aren&amp;rsquo;t any requirements for a credit card or payments. If there is, check if the domain you chosen is free.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Visit the site &lt;a href=&#34;https://www.freenom.com&#34;&gt;www.freenom.com&lt;/a&gt; and type the prefix you want in the &amp;ldquo;Find a new FREE domain&amp;rdquo; and then click &amp;ldquo;Check Availability&amp;rdquo;. If it&amp;rsquo;s available, just click the blue &amp;ldquo;Get it now&amp;rdquo; and then the green &amp;ldquo;Checkout&amp;rdquo;. In the &amp;ldquo;Period&amp;rdquo; column, you can change the expiration date up to 12 Months for free, &lt;em&gt;(you can do this again after 12 months, I will post another blog later for a permanent service)&lt;/em&gt;. Click &amp;ldquo;Continue&amp;rdquo; then enter your email and click &amp;ldquo;Verify My Email Address&amp;rdquo;. You&amp;rsquo;ll find a verify email in your inbox soon. If there&amp;rsquo;s not, check if it&amp;rsquo;s in the junk list or if the email address you typed is invalid. If you got the email, just follow the guide and verify it.&lt;/p&gt;
+&lt;p&gt;Then, back to the Freenom&amp;rsquo;s checkout page and buy the domain for $0.00USD. &lt;strong&gt;There aren&amp;rsquo;t any requirements for a credit card or payments. If there is, check if the domain you chosen is free.&lt;/strong&gt;&lt;/p&gt;
 &lt;h4 id=&#34;2-configure-the-dns-settings&#34;&gt;2. Configure the DNS settings&lt;/h4&gt;
 &lt;p&gt;Go to &lt;a href=&#34;https://my.freenom.com/clientarea.php?action=domains&#34;&gt;&amp;ldquo;My Domains&amp;rdquo;&lt;/a&gt; on Freemon, then click &amp;ldquo;Manage Domain&amp;rdquo; on the right of your domain name. Click &lt;strong&gt;&amp;ldquo;Management Tools&amp;rdquo; &amp;gt; &amp;ldquo;Nameservers&amp;rdquo;&lt;/strong&gt;, make sure it points to &lt;strong&gt;&amp;ldquo;Use default nameservers (Freenom Nameservers)&amp;rdquo;&lt;/strong&gt; and then click &lt;strong&gt;&amp;ldquo;Manage Freenom DNS&amp;rdquo;&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Now:&lt;/p&gt;

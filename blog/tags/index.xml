@@ -7,7 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright ExhYZ 2018-</copyright>
-    <lastBuildDate>Thu, 05 Jan 2023 16:42:21 +0800</lastBuildDate><atom:link href="https://www.nwyz.eu.org/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Jan 2023 08:28:01 +0800</lastBuildDate><atom:link href="https://www.nwyz.eu.org/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Crash Course</title>
+      <link>https://www.nwyz.eu.org/blog/tags/crash-course/</link>
+      <pubDate>Fri, 06 Jan 2023 08:28:01 +0800</pubDate>
+      
+      <guid>https://www.nwyz.eu.org/blog/tags/crash-course/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Markdown</title>
+      <link>https://www.nwyz.eu.org/blog/tags/markdown/</link>
+      <pubDate>Fri, 06 Jan 2023 08:28:01 +0800</pubDate>
+      
+      <guid>https://www.nwyz.eu.org/blog/tags/markdown/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Tutorial</title>
+      <link>https://www.nwyz.eu.org/blog/tags/tutorial/</link>
+      <pubDate>Fri, 06 Jan 2023 08:28:01 +0800</pubDate>
+      
+      <guid>https://www.nwyz.eu.org/blog/tags/tutorial/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
     <item>
       <title>Beginners</title>
       <link>https://www.nwyz.eu.org/blog/tags/beginners/</link>
@@ -49,41 +79,11 @@
     </item>
     
     <item>
-      <title>Hugo</title>
-      <link>https://www.nwyz.eu.org/blog/tags/hugo/</link>
-      <pubDate>Thu, 05 Jan 2023 16:42:21 +0800</pubDate>
-      
-      <guid>https://www.nwyz.eu.org/blog/tags/hugo/</guid>
-      <description></description>
-      <content></content>
-    </item>
-    
-    <item>
       <title>No Coding</title>
       <link>https://www.nwyz.eu.org/blog/tags/no-coding/</link>
       <pubDate>Thu, 05 Jan 2023 16:42:21 +0800</pubDate>
       
       <guid>https://www.nwyz.eu.org/blog/tags/no-coding/</guid>
-      <description></description>
-      <content></content>
-    </item>
-    
-    <item>
-      <title>PageFabric</title>
-      <link>https://www.nwyz.eu.org/blog/tags/pagefabric/</link>
-      <pubDate>Thu, 05 Jan 2023 16:42:21 +0800</pubDate>
-      
-      <guid>https://www.nwyz.eu.org/blog/tags/pagefabric/</guid>
-      <description></description>
-      <content></content>
-    </item>
-    
-    <item>
-      <title>Tutorial</title>
-      <link>https://www.nwyz.eu.org/blog/tags/tutorial/</link>
-      <pubDate>Thu, 05 Jan 2023 16:42:21 +0800</pubDate>
-      
-      <guid>https://www.nwyz.eu.org/blog/tags/tutorial/</guid>
       <description></description>
       <content></content>
     </item>

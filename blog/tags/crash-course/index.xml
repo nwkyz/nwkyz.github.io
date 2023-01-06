@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Crash Course on ExhYZ&#39;s Blog</title>
+    <link>https://www.nwyz.eu.org/blog/tags/crash-course/</link>
+    <description>Recent content in Crash Course on ExhYZ&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright ExhYZ 2018-</copyright>
+    <lastBuildDate>Fri, 06 Jan 2023 08:28:01 +0800</lastBuildDate><atom:link href="https://www.nwyz.eu.org/blog/tags/crash-course/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown Crash Course For Beginners</title>
+      <link>https://www.nwyz.eu.org/blog/posts/001-002-markdown-crashcourse/</link>
+      <pubDate>Fri, 06 Jan 2023 08:28:01 +0800</pubDate>
+      
+      <guid>https://www.nwyz.eu.org/blog/posts/001-002-markdown-crashcourse/</guid>
+      <description>Before we start Hi! I&amp;rsquo;m back, today we are going to use Markdown, which is a powerful</description>
+      <content>&lt;h2 id=&#34;before-we-start&#34;&gt;Before we start&lt;/h2&gt;
+&lt;p&gt;Hi! I&amp;rsquo;m back, today we are going to use Markdown, which is a powerful&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>
