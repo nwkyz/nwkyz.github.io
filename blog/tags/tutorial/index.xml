@@ -9,16 +9,82 @@
     <copyright>Copyright ExhYZ 2018-</copyright>
     <lastBuildDate>Fri, 06 Jan 2023 08:28:01 +0800</lastBuildDate><atom:link href="https://www.nwyz.eu.org/blog/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Markdown Crash Course For Beginners</title>
+      <title>Markdown Crash Course For Beginners and FAQs</title>
       <link>https://www.nwyz.eu.org/blog/posts/001-002-markdown-crashcourse/</link>
       <pubDate>Fri, 06 Jan 2023 08:28:01 +0800</pubDate>
       
       <guid>https://www.nwyz.eu.org/blog/posts/001-002-markdown-crashcourse/</guid>
       <description>Before we start Hi! I&amp;rsquo;m back, today we are going to use Markdown, which is a powerful lightweight markup language for creating beautiful formatted text using only a text editor.
-Part 1: Create a Markdown file </description>
+Part 1: Install a better text editor There are many software compatible with Markdown syntax and some of them have their own features. Out of all these, I suggest to use:
+Visual Studio Code (Recommended), which is a powerful editor by Microsoft.</description>
       <content>&lt;h2 id=&#34;before-we-start&#34;&gt;Before we start&lt;/h2&gt;
 &lt;p&gt;Hi! I&amp;rsquo;m back, today we are going to use Markdown, which is a powerful lightweight markup language for creating beautiful formatted text using only a text editor.&lt;/p&gt;
-&lt;h2 id=&#34;part-1-create-a-markdown-file&#34;&gt;Part 1: Create a Markdown file&lt;/h2&gt;
+&lt;h2 id=&#34;part-1-install-a-better-text-editor&#34;&gt;Part 1: Install a better text editor&lt;/h2&gt;
+&lt;p&gt;There are many software compatible with Markdown syntax and some of them have their own features. Out of all these, I suggest to use:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://code.visualstudio.com/&#34;&gt;&lt;strong&gt;Visual Studio Code&lt;/strong&gt;&lt;/a&gt; &lt;em&gt;(Recommended)&lt;/em&gt;, which is a powerful editor by Microsoft. It has friendly user interface, quick release/git experience and easy Markdown extension experience. Actually, its compatibility is extremely good, it works on &lt;strong&gt;Windows 8,10,11 x86/x64/arm64&lt;/strong&gt;, almost every &lt;strong&gt;Linux x64/arm32/arm64&lt;/strong&gt; distros, &lt;strong&gt;macOS 10.11+ Intel/Apple&lt;/strong&gt; and even a &lt;a href=&#34;https://vscode.dev/&#34;&gt;&lt;strong&gt;Web Version&lt;/strong&gt;&lt;/a&gt;. The best for beginners.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/marktext/marktext&#34;&gt;&lt;strong&gt;MarkText&lt;/strong&gt;&lt;/a&gt;, a simple and elegant open-source markdown editor that focused on speed and usability. Provides a familiar user interface and extreme editing/reading experience. If you want a quick, open-source editor, just try MarkText. It works on &lt;strong&gt;Windows x86/x64&lt;/strong&gt;, &lt;strong&gt;Linux x64&lt;/strong&gt; and &lt;strong&gt;macOS x64&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://notepad-plus-plus.org/downloads/&#34;&gt;&lt;strong&gt;Notepad ++&lt;/strong&gt;&lt;/a&gt;, which is another excellent text editor for Markdown with plug-ins. It works well on &lt;strong&gt;Windows&lt;/strong&gt; platform.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://typora.io/&#34;&gt;&lt;strong&gt;Typora&lt;/strong&gt;&lt;/a&gt; is a minimal Markdown editor/reader. It has seamless live preview which meaning what you see is what you mean. Themes looks quite good in Typora but it&amp;rsquo;s no longer free right now. Works well on &lt;strong&gt;Windows x86/x64/arm64&lt;/strong&gt;, &lt;strong&gt;Linux x64/arm64&lt;/strong&gt; and &lt;strong&gt;macOS with Intel chips&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;part-2-creating-basic-formats&#34;&gt;Part 2: Creating basic formats&lt;/h2&gt;
+&lt;p&gt;For the tutorial, I will use Visual Studio Code for the demo and you can pick your favorite.&lt;/p&gt;
+&lt;h4 id=&#34;1-installing-extensions&#34;&gt;1. Installing extensions&lt;/h4&gt;
+&lt;p&gt;(1) Open Visual Studio Code, and click the &lt;strong&gt;&amp;ldquo;Extension&amp;rdquo;&lt;/strong&gt; tab on the left (or you can use &lt;code&gt;Ctrl+Shift+X&lt;/code&gt;)&lt;br&gt;
+(2) Search &lt;strong&gt;&amp;ldquo;Markdown All in One&amp;rdquo;&lt;/strong&gt; and click &lt;strong&gt;&amp;ldquo;Install&amp;rdquo;&lt;/strong&gt;&lt;br&gt;
+(3) Search &lt;strong&gt;&amp;ldquo;Auto-Open Markdown Preview&amp;rdquo;&lt;/strong&gt; and click &lt;strong&gt;&amp;ldquo;Install&amp;rdquo;&lt;/strong&gt;&lt;br&gt;
+(4) Now reopen Visual Studio Code.&lt;/p&gt;
+&lt;h4 id=&#34;2-create-a-markdown-file&#34;&gt;2. Create a Markdown file&lt;/h4&gt;
+&lt;p&gt;(1) After reopened Visual Studio Code, click &lt;strong&gt;&amp;ldquo;File&amp;rdquo;&lt;/strong&gt; on the top left corner of the window and then click &lt;strong&gt;&amp;ldquo;New File&amp;hellip;&amp;rdquo;&lt;/strong&gt;.&lt;br&gt;
+(2) Type &lt;strong&gt;&amp;quot;&lt;em&gt;xxx&lt;/em&gt;.md&amp;quot;&lt;/strong&gt; and hit &lt;strong&gt;ENTER&lt;/strong&gt;, then choose a directory and now the file will open. *&lt;strong&gt;If your extension installed correctly, you can see a Preview window on the right hand side.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;part-3-commonly-used-markdown-syntax&#34;&gt;Part 3: Commonly used Markdown syntax&lt;/h2&gt;
+&lt;p&gt;The easy syntax is the core of Markdown, it&amp;rsquo;s not difficult with only some punctuations.&lt;/p&gt;
+&lt;h4 id=&#34;1-headings&#34;&gt;1. Headings&lt;/h4&gt;
+&lt;p&gt;Headings in markdown is &lt;strong&gt;just with &lt;code&gt;#&lt;/code&gt;&lt;/strong&gt;. Write in your file like this:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-Markdown&#34; data-lang=&#34;Markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# This is a level 1 heading
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;## This is a level 2 heading
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;### This is a level 3 heading
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#### This is a level 4 heading
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;##### This is a level 5 heading
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;###### This is a level 6 heading
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&#34;https://www.nwyz.eu.org/files/mddemo1.html&#34;&gt;And it looks like this (Click to view)&lt;/a&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;✅ Right&lt;/th&gt;
+&lt;th&gt;❌ Wrong&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;# Heading with a space&lt;/td&gt;
+&lt;td&gt;#Heading without space&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;The first line before a blank line&lt;/br&gt;&lt;/br&gt;# Put heading here&lt;/br&gt;&lt;/br&gt;The third line after another blank line&lt;/td&gt;
+&lt;td&gt;The first line without a blank line&lt;/br&gt;# DON&amp;rsquo;T DO THIS&lt;/br&gt;The third line without a blank line&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;2-newline&#34;&gt;2. Newline&lt;/h4&gt;
+&lt;p&gt;To create a new line, just type 2 spaces at the end of the first line and then type the second line.&lt;br&gt;
+Type in your file like this:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-Markdown&#34; data-lang=&#34;Markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;THIS IS THE FIRST LINE     &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;-there&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;are&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;2&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;spaces&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;here&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;THIS&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;IS&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;THE&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;SECOND&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;LINE&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;✅ Right&lt;/th&gt;
+&lt;th&gt;❌ Wrong&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;The first line  &lt;/br&gt;The second line&lt;/td&gt;
+&lt;td&gt;The first line  The second line&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 </content>
     </item>
     

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   
-    <title>Markdown Crash Course For Beginners · ExhYZ&#39;s Blog</title>
+    <title>Markdown Crash Course For Beginners and FAQs · ExhYZ&#39;s Blog</title>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -45,7 +45,7 @@
 
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="article" />
-<meta property="og:title" content="Markdown Crash Course For Beginners">
+<meta property="og:title" content="Markdown Crash Course For Beginners and FAQs">
 <meta property="og:description" content="A fast tutorial for beginners on Markdown syntax and writing standard" />
 <meta property="og:url" content="https://www.nwyz.eu.org/blog/posts/001-002-markdown-crashcourse/" />
 <meta property="og:site_name" content="ExhYZ&#39;s Blog" />
@@ -162,7 +162,7 @@
     
 <article class="post">
   <h1 class="post-title">
-    <a href="https://www.nwyz.eu.org/blog/posts/001-002-markdown-crashcourse/">Markdown Crash Course For Beginners</a>
+    <a href="https://www.nwyz.eu.org/blog/posts/001-002-markdown-crashcourse/">Markdown Crash Course For Beginners and FAQs</a>
   </h1>
   <div class="post-meta">
     
@@ -175,7 +175,7 @@
       <span class="post-author"> · ExhYZ</span>
     
     
-      <span class="post-reading-time">· 1 min read · 36 words</span>
+      <span class="post-reading-time">· 3 min read · 536 words</span>
     
   </div>
 
@@ -201,7 +201,17 @@
       <nav id="TableOfContents">
   <ul>
     <li><a href="#before-we-start">Before we start</a></li>
-    <li><a href="#part-1-create-a-markdown-file">Part 1: Create a Markdown file</a></li>
+    <li><a href="#part-1-install-a-better-text-editor">Part 1: Install a better text editor</a></li>
+    <li><a href="#part-2-creating-basic-formats">Part 2: Creating basic formats</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#part-3-commonly-used-markdown-syntax">Part 3: Commonly used Markdown syntax</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
   </ul>
 </nav>
     </div>
@@ -210,7 +220,72 @@
   <div class="post-content"><div>
         <h2 id="before-we-start">Before we start<a href="#before-we-start" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
 <p>Hi! I&rsquo;m back, today we are going to use Markdown, which is a powerful lightweight markup language for creating beautiful formatted text using only a text editor.</p>
-<h2 id="part-1-create-a-markdown-file">Part 1: Create a Markdown file<a href="#part-1-create-a-markdown-file" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<h2 id="part-1-install-a-better-text-editor">Part 1: Install a better text editor<a href="#part-1-install-a-better-text-editor" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>There are many software compatible with Markdown syntax and some of them have their own features. Out of all these, I suggest to use:</p>
+<ul>
+<li><a href="https://code.visualstudio.com/"><strong>Visual Studio Code</strong></a> <em>(Recommended)</em>, which is a powerful editor by Microsoft. It has friendly user interface, quick release/git experience and easy Markdown extension experience. Actually, its compatibility is extremely good, it works on <strong>Windows 8,10,11 x86/x64/arm64</strong>, almost every <strong>Linux x64/arm32/arm64</strong> distros, <strong>macOS 10.11+ Intel/Apple</strong> and even a <a href="https://vscode.dev/"><strong>Web Version</strong></a>. The best for beginners.</li>
+<li><a href="https://github.com/marktext/marktext"><strong>MarkText</strong></a>, a simple and elegant open-source markdown editor that focused on speed and usability. Provides a familiar user interface and extreme editing/reading experience. If you want a quick, open-source editor, just try MarkText. It works on <strong>Windows x86/x64</strong>, <strong>Linux x64</strong> and <strong>macOS x64</strong>.</li>
+<li><a href="https://notepad-plus-plus.org/downloads/"><strong>Notepad ++</strong></a>, which is another excellent text editor for Markdown with plug-ins. It works well on <strong>Windows</strong> platform.</li>
+<li><a href="https://typora.io/"><strong>Typora</strong></a> is a minimal Markdown editor/reader. It has seamless live preview which meaning what you see is what you mean. Themes looks quite good in Typora but it&rsquo;s no longer free right now. Works well on <strong>Windows x86/x64/arm64</strong>, <strong>Linux x64/arm64</strong> and <strong>macOS with Intel chips</strong>.</li>
+</ul>
+<h2 id="part-2-creating-basic-formats">Part 2: Creating basic formats<a href="#part-2-creating-basic-formats" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>For the tutorial, I will use Visual Studio Code for the demo and you can pick your favorite.</p>
+<h4 id="1-installing-extensions">1. Installing extensions<a href="#1-installing-extensions" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
+<p>(1) Open Visual Studio Code, and click the <strong>&ldquo;Extension&rdquo;</strong> tab on the left (or you can use <code>Ctrl+Shift+X</code>)<br>
+(2) Search <strong>&ldquo;Markdown All in One&rdquo;</strong> and click <strong>&ldquo;Install&rdquo;</strong><br>
+(3) Search <strong>&ldquo;Auto-Open Markdown Preview&rdquo;</strong> and click <strong>&ldquo;Install&rdquo;</strong><br>
+(4) Now reopen Visual Studio Code.</p>
+<h4 id="2-create-a-markdown-file">2. Create a Markdown file<a href="#2-create-a-markdown-file" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
+<p>(1) After reopened Visual Studio Code, click <strong>&ldquo;File&rdquo;</strong> on the top left corner of the window and then click <strong>&ldquo;New File&hellip;&rdquo;</strong>.<br>
+(2) Type <strong>&quot;<em>xxx</em>.md&quot;</strong> and hit <strong>ENTER</strong>, then choose a directory and now the file will open. *<strong>If your extension installed correctly, you can see a Preview window on the right hand side.</strong></p>
+<h2 id="part-3-commonly-used-markdown-syntax">Part 3: Commonly used Markdown syntax<a href="#part-3-commonly-used-markdown-syntax" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>The easy syntax is the core of Markdown, it&rsquo;s not difficult with only some punctuations.</p>
+<h4 id="1-headings">1. Headings<a href="#1-headings" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
+<p>Headings in markdown is <strong>just with <code>#</code></strong>. Write in your file like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Markdown" data-lang="Markdown"><span style="display:flex;"><span># This is a level 1 heading
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## This is a level 2 heading
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">### This is a level 3 heading
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">#### This is a level 4 heading
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">##### This is a level 5 heading
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">###### This is a level 6 heading
+</span></span></span></code></pre></div><p><a href="https://www.nwyz.eu.org/files/mddemo1.html">And it looks like this (Click to view)</a></p>
+<table>
+<thead>
+<tr>
+<th>✅ Right</th>
+<th>❌ Wrong</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td># Heading with a space</td>
+<td>#Heading without space</td>
+</tr>
+<tr>
+<td>The first line before a blank line</br></br># Put heading here</br></br>The third line after another blank line</td>
+<td>The first line without a blank line</br># DON&rsquo;T DO THIS</br>The third line without a blank line</td>
+</tr>
+</tbody>
+</table>
+<h4 id="2-newline">2. Newline<a href="#2-newline" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
+<p>To create a new line, just type 2 spaces at the end of the first line and then type the second line.<br>
+Type in your file like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Markdown" data-lang="Markdown"><span style="display:flex;"><span>THIS IS THE FIRST LINE     &lt;<span style="color:#f92672">-there</span> <span style="color:#a6e22e">are</span> <span style="color:#a6e22e">2</span> <span style="color:#a6e22e">spaces</span> <span style="color:#a6e22e">here</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">THIS</span> <span style="color:#a6e22e">IS</span> <span style="color:#a6e22e">THE</span> <span style="color:#a6e22e">SECOND</span> <span style="color:#a6e22e">LINE</span>
+</span></span></code></pre></div><table>
+<thead>
+<tr>
+<th>✅ Right</th>
+<th>❌ Wrong</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>The first line  </br>The second line</td>
+<td>The first line  The second line</td>
+</tr>
+</tbody>
+</table>
 
       </div></div>
 
