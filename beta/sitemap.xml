@@ -2,116 +2,128 @@
 <!--Created with PageFabric. https://pagefabric-app.com-->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>/about.html</loc>
-    <lastmod>2022-12-26</lastmod>
+    <loc>https://www.nwyz.eu.org//insiderTest.html</loc>
+    <lastmod>2023-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
-    <loc>/branches.html</loc>
-    <lastmod>2022-12-26</lastmod>
+    <loc>https://www.nwyz.eu.org//changelog.html</loc>
+    <lastmod>2023-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
-    <loc>/changelog.html</loc>
-    <lastmod>2022-12-26</lastmod>
+    <loc>https://www.nwyz.eu.org//branches.html</loc>
+    <lastmod>2023-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
-    <loc>/index.html</loc>
-    <lastmod>2022-12-26</lastmod>
+    <loc>https://www.nwyz.eu.org//index.html</loc>
+    <lastmod>2023-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
-    <loc>/insiderTest.html</loc>
-    <lastmod>2022-12-26</lastmod>
+    <loc>https://www.nwyz.eu.org//404.html</loc>
+    <lastmod>2023-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
-    <loc>/404.html</loc>
-    <lastmod>2022-12-26</lastmod>
+    <loc>https://www.nwyz.eu.org//about.html</loc>
+    <lastmod>2023-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
-    <loc>/apps/covid.html</loc>
-    <lastmod>2022-12-26</lastmod>
+    <loc>https://www.nwyz.eu.org//error/codes.html</loc>
+    <lastmod>2023-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
-    <loc>/apps/chat.html</loc>
-    <lastmod>2022-12-26</lastmod>
+    <loc>https://www.nwyz.eu.org//apps/covid.html</loc>
+    <lastmod>2023-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
-    <loc>/apps/index.html</loc>
-    <lastmod>2022-12-26</lastmod>
+    <loc>https://www.nwyz.eu.org//apps/osimages.html</loc>
+    <lastmod>2023-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
-    <loc>/apps/osimages.html</loc>
-    <lastmod>2022-12-26</lastmod>
+    <loc>https://www.nwyz.eu.org//apps/weather.html</loc>
+    <lastmod>2023-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
-    <loc>/apps/weather.html</loc>
-    <lastmod>2022-12-26</lastmod>
+    <loc>https://www.nwyz.eu.org//apps/chat.html</loc>
+    <lastmod>2023-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
-    <loc>/error/codes.html</loc>
-    <lastmod>2022-12-26</lastmod>
+    <loc>https://www.nwyz.eu.org//apps/index.html</loc>
+    <lastmod>2023-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
-    <loc>/apps/osimages/w11dev.html</loc>
-    <lastmod>2022-12-26</lastmod>
+    <loc>https://www.nwyz.eu.org//PageStorage/Projects/index.html</loc>
+    <lastmod>2023-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
-    <loc>/apps/osimages/w11lite.html</loc>
-    <lastmod>2022-12-26</lastmod>
+    <loc>https://www.nwyz.eu.org//apps/osimages/w11lite.html</loc>
+    <lastmod>2023-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
-    <loc>/apps/osimages/w11official.html</loc>
-    <lastmod>2022-12-26</lastmod>
+    <loc>https://www.nwyz.eu.org//apps/osimages/w11official.html</loc>
+    <lastmod>2023-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
-    <loc>/apps/chat/channel1.html</loc>
-    <lastmod>2022-12-26</lastmod>
+    <loc>https://www.nwyz.eu.org//apps/osimages/w11dev.html</loc>
+    <lastmod>2023-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
-    <loc>/apps/chat/channel2.html</loc>
-    <lastmod>2022-12-26</lastmod>
+    <loc>https://www.nwyz.eu.org//apps/chat/channel2.html</loc>
+    <lastmod>2023-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
-    <loc>/apps/chat-mobile/channel1m.html</loc>
-    <lastmod>2022-12-26</lastmod>
+    <loc>https://www.nwyz.eu.org//apps/chat/channel1.html</loc>
+    <lastmod>2023-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
-    <loc>/apps/chat-mobile/channel2m.html</loc>
-    <lastmod>2022-12-26</lastmod>
+    <loc>https://www.nwyz.eu.org//apps/chat-mobile/channel1m.html</loc>
+    <lastmod>2023-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>https://www.nwyz.eu.org//apps/chat-mobile/channel2m.html</loc>
+    <lastmod>2023-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>https://www.nwyz.eu.org//PageStorage/Projects/Bailing/bailing.html</loc>
+    <lastmod>2023-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>

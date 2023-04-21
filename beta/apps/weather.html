@@ -1,3 +1,83 @@
-<!DOCTYPE html><html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>NetworkYZ Weather</title><meta name="Cache-Control" content="max-age=172800, must-revalidate"><meta name="description"><meta name="keywords"><meta name="pf:SiteID" content="423e7b73-1c2e-4972-b629-18944347e35d-5e3d23d5-4c37-4a18-84aa-2f8f51a16e34"><meta name="pf:PageID" content="7e097b66-0791-4999-95c6-c162d102b746"><link rel="canonical" href="zh/apps/weather.html"><link rel="stylesheet" href="../assets/css/theme.css?v=2e1cd269"><script defer src="../assets/scripts/PageFabric.Dependencies.JQuery.jquery.min.js?v=2e1cd269"></script><script defer src="../assets/scripts/PageFabric.Dependencies.ChartJs.jscharts.min.js?v=2e1cd269"></script><link rel="stylesheet" href="../assets/css/PageFabric.Dependencies.CookieConsent.cookieconsent.min.css?v=2e1cd269"><script defer src="../assets/scripts/PageFabric.Dependencies.CookieConsent.cookieconsent.min.js?v=2e1cd269"></script><script defer src="../assets/scripts/PageFabric.Dependencies.MediumZoom.mediumzoom.min.js?v=2e1cd269"></script><link rel="stylesheet" href="../assets/css/PageFabric.Dependencies.Prism.prism.min.css?v=2e1cd269"><script defer src="../assets/scripts/PageFabric.Dependencies.Prism.prism.min.js?v=2e1cd269"></script><script defer src="../assets/scripts/PageFabric.Framework.PageFabricFramework.min.js?v=2e1cd269"></script><link rel="stylesheet" href="../assets/css/PageFabric.Framework.default.min.css?v=2e1cd269"><link rel="stylesheet" href="../assets/css/PageFabric.Framework.default2.min.css?v=2e1cd269"><link rel="stylesheet" href="../assets/css/PageFabric.Framework.controls.min.css?v=2e1cd269"><link rel="stylesheet" href="../assets/css/PageFabric.Framework.symbolfonts.min.css?v=2e1cd269"><link rel="stylesheet" href="../assets/css/PageFabric.Addins.BackToTop.gotop.css?v=2e1cd269"><script defer src="../assets/scripts/PageFabric.Addins.BackToTop.gotop.js?v=2e1cd269"></script><link rel="stylesheet" href="../assets/css/Plyr.plyr.css?v=2e1cd269"><script defer src="../assets/scripts/Plyr.plyr.js?v=2e1cd269"></script><link rel="stylesheet" href="../assets/css/PageFabric.Addins.FixedHeader.fixheader.css?v=2e1cd269"><script defer src="../assets/scripts/PageFabric.Addins.FixedHeader.fixheader.js?v=2e1cd269"></script><link rel="stylesheet" href="../assets/css/PageFabric.Themes.Fluent.default.min.css?v=2e1cd269"><link rel="stylesheet" href="../assets/css/userstyles.css?v=2e1cd269"><script defer src="../assets/scripts/config.js?v=2e1cd269"></script><script>
+<!DOCTYPE html>
+<html lang="zh"><head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>NetworkYZ Weather</title>
+<meta name="Cache-Control" content="max-age=172800, must-revalidate" />
+<meta name="description" content="">
+<meta name="keywords" content="" />
+<meta name="pf:SiteID" content="423e7b73-1c2e-4972-b629-18944347e35d-5e3d23d5-4c37-4a18-84aa-2f8f51a16e34" />
+<meta name="pf:PageID" content="7e097b66-0791-4999-95c6-c162d102b746" />
+<link rel="canonical" href="https://www.nwyz.eu.org/zh/apps/weather.html" />
+<link rel="stylesheet" href="../assets/css/theme.css?v=8e67f31f" />
+<script defer  src="../assets/scripts/PageFabric.Dependencies.JQuery.jquery.min.js?v=8e67f31f"></script>
+<link rel="stylesheet" href="../assets/css/PageFabric.Dependencies.Prism.prism.min.css?v=8e67f31f">
+<script defer  src="../assets/scripts/PageFabric.Dependencies.Prism.prism.min.js?v=8e67f31f"></script>
+<script defer  src="../assets/scripts/PageFabric.Dependencies.MediumZoom.mediumzoom.min.js?v=8e67f31f"></script>
+<link rel="stylesheet" href="../assets/css/PageFabric.Dependencies.CookieConsent.cookieconsent.min.css?v=8e67f31f">
+<script defer  src="../assets/scripts/PageFabric.Dependencies.CookieConsent.cookieconsent.min.js?v=8e67f31f"></script>
+<script defer  src="../assets/scripts/PageFabric.Dependencies.ChartJs.jscharts.min.js?v=8e67f31f"></script>
+<script defer  src="../assets/scripts/PageFabric.Framework.PageFabricFramework.min.js?v=8e67f31f"></script>
+<link rel="stylesheet" href="../assets/css/PageFabric.Framework.default.min.css?v=8e67f31f">
+<link rel="stylesheet" href="../assets/css/PageFabric.Framework.default2.min.css?v=8e67f31f">
+<link rel="stylesheet" href="../assets/css/PageFabric.Framework.controls.min.css?v=8e67f31f">
+<link rel="stylesheet" href="../assets/css/PageFabric.Framework.symbolfonts.min.css?v=8e67f31f">
+<link rel="stylesheet" href="../assets/css/PageFabric.Themes.Fluent.default.min.css?v=8e67f31f">
+<link rel="stylesheet" href="../assets/css/Plyr.plyr.css?v=8e67f31f">
+<script defer  src="../assets/scripts/Plyr.plyr.js?v=8e67f31f"></script>
+<link rel="stylesheet" href="../assets/css/PageFabric.Addins.BackToTop.gotop.css?v=8e67f31f">
+<script defer  src="../assets/scripts/PageFabric.Addins.BackToTop.gotop.js?v=8e67f31f"></script>
+<link rel="stylesheet" href="../assets/css/PageFabric.Addins.FixedHeader.fixheader.css?v=8e67f31f">
+<script defer  src="../assets/scripts/PageFabric.Addins.FixedHeader.fixheader.js?v=8e67f31f"></script>
+<link rel="stylesheet" href="../assets/css/userstyles.css?v=8e67f31f" />
+<script defer src="../assets/scripts/config.js?v=8e67f31f"></script>
+<script type='text/javascript'>
 var PageFunctions = {};
-</script></head><body><header> <div class="pfBox background-neutralTertiaryAlt"><div class="pfBox width-s"><nav class="pfHNav"> <a href="javascript:void(0);" rel="nofollow" class="icon"> <i class="menuHamburgerIcon"></i> </a> <span class="menuIcon"><img src="../assets/images/icon.png" alt="NetworkYZ / Apps"></span> <span class="menuTitle">NetworkYZ / Apps</span> <del>More</del> <div class="menuSpaceLeft"></div> <ul> <li><a href="index.html">Home</a></li> <li><a href="osimages.html">Binaries</a></li> <li><a href="chat.html">Chat</a></li> <li><a href="weather.html" class="currentPage">Weather</a></li> <li><a href="../index.html" class="navItemButton">All NetworkYZ</a></li> </ul> <div class="menuSpaceRight"></div> <div style="clear:both"></div> </nav> </div></div> </header> <div class="pageWrapper pageFull"> <main> <div class="pfBox width-s content-horizontal-align-center display-onlyDesktop"><div class="pfCustomCode"><iframe src="https://widget-page.qweather.net/h5/index.html?md=0134265&amp;lg=auto&amp;bg=1&amp;lc=auto&amp;key=9c575d914bcb458fad66424139544451&amp;v=_1659428527190" width="450px" height="1850px" frameborder="0"></iframe></div></div><div class="pfBox display-onlyMobile width-s height-600"><div class="pfCustomCode"><iframe src="https://widget-page.qweather.net/h5/index.html?md=0134265&amp;lg=auto&amp;bg=1&amp;lc=auto&amp;key=9c575d914bcb458fad66424139544451&amp;v=_1659428527190" width="100%" height="1820px" frameborder="0"></iframe></div></div> </main> </div> <footer> <div class="pfBox background-themeLighterAlt content-vertical-align-center height-180 padding-15"><div class="pfBox syncWithContentWidth width-s"><div class="pfCardContainer cardsColumns columns-valign-top columns-33"><div class="pfCard padding-default background-trans"> <div class="cardPlaceholder"> <div class="cardContent"> <div class="pfRichText"> <p><strong>Made with ❤ in China&nbsp;</strong></p><p>Ethonwork Web (ENWB, OSYZ) Presented. <br></p><p>Built with PageFabric and 2-OS Web Designer.<br></p><p>2022</p> </div> </div> </div> </div><div class="pfCard padding-default background-trans"> <div class="cardPlaceholder"> <div class="cardContent"> <div class="pfRichText"> <p><strong>Applications</strong></p><p>Apps designed by Ethonwork Web, producted with PageFabric and 2-OS Web Designer.</p><p></p><p>2022</p><p></p><p></p> </div> </div> </div> </div><div class="pfCard padding-default background-trans"> <div class="cardPlaceholder"> <div class="cardContent"> <div class="pfRichText"> <p><strong>Weather</strong></p><p>ExhYZ Presented</p><p>Weather services and data provided by QWeather</p><p>2022 (152)</p><p></p><p></p> </div> </div> </div> </div></div></div></div> </footer></body></html>
+</script>
+
+</head><body class="">
+
+    
+    <header>
+<div class="pfBox background-neutralTertiaryAlt"><div class="pfBox width-s"><nav class='pfHNav'><a href="javascript:void(0);" rel="nofollow" class="icon"><i class="menuHamburgerIcon"></i></a><span class='menuIcon'><img src='../assets/images/icon.png' alt="NetworkYZ / Apps"></span><span class='menuTitle'>NetworkYZ / Apps</span><del>More</del><div class="menuSpaceLeft"></div><ul><li><a href="index.html">Home</a></li><li><a href="osimages.html">Binaries</a></li><li><a href="chat.html">Chat</a></li><li><a href="weather.html" class="currentPage">Weather</a></li><li><a href="../index.html" class="navItemButton">All NetworkYZ</a></li></ul><div class="menuSpaceRight"></div><div style='clear:both'></div></nav>
+</div></div>
+</header>
+    
+    <div class="pageWrapper pageFull">
+    <main>
+<div class="pfBox width-s content-horizontal-align-center display-onlyDesktop"><div class="pfCustomCode"><iframe src="https://widget-page.qweather.net/h5/index.html?md=0134265&amp;lg=auto&amp;bg=1&amp;lc=auto&amp;key=9c575d914bcb458fad66424139544451&amp;v=_1659428527190" width="450px" height="1850px" frameborder="0"></iframe></div></div><div class="pfBox display-onlyMobile width-s height-600"><div class="pfCustomCode"><iframe src="https://widget-page.qweather.net/h5/index.html?md=0134265&amp;lg=auto&amp;bg=1&amp;lc=auto&amp;key=9c575d914bcb458fad66424139544451&amp;v=_1659428527190" width="100%" height="1820px" frameborder="0"></iframe></div></div>
+</main>
+    </div>
+    
+    <footer>
+<div class="pfBox background-themeLighterAlt content-vertical-align-center height-180 padding-15"><div class="pfBox syncWithContentWidth width-s"><div class="pfCardContainer cardsColumns columns-valign-top columns-33"><div class="pfCard padding-default background-trans">
+  <div class="cardPlaceholder">
+    <div class="cardContent">
+    <div class='pfRichText'>
+      <p><strong>Made with ❤ in China&nbsp;</strong></p><p>Ethonwork Web (ENWB, OSYZ) Presented.
+<br></p><p>Built with PageFabric and 2-OS Web Designer.<br></p><p>2022</p>
+      </div>
+    </div>
+  </div>
+</div><div class="pfCard padding-default background-trans">
+  <div class="cardPlaceholder">
+    <div class="cardContent">
+    <div class='pfRichText'>
+      <p><strong>Applications</strong></p><p>Apps designed by Ethonwork Web, producted with PageFabric and 2-OS Web Designer.</p><p></p><p>2022</p><p></p><p></p>
+      </div>
+    </div>
+  </div>
+</div><div class="pfCard padding-default background-trans">
+  <div class="cardPlaceholder">
+    <div class="cardContent">
+    <div class='pfRichText'>
+      <p><strong>Weather</strong></p><p>ExhYZ Presented</p><p>Weather services and data provided by QWeather</p><p>2022 (152)</p><p></p><p></p>
+      </div>
+    </div>
+  </div>
+</div></div></div></div>
+</footer>
+    
+    
+
+</body></html>
