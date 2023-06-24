@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ExhYZ&#39;s Blog</title>
+    <title>Hi, this is ExhYZ.</title>
     <link>https://www.nwyz.eu.org/blog/</link>
-    <description>Recent content on ExhYZ&#39;s Blog</description>
+    <description>Recent content on Hi, this is ExhYZ.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright ExhYZ 2018-</copyright>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Sat, 22 Apr 2023 13:05:46 +0800</lastBuildDate><atom:link href="https://www.nwyz.eu.org/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introducing Ethonwork Bailing</title>
@@ -16,39 +16,6 @@
       <guid>https://www.nwyz.eu.org/blog/posts/3-introducing-bailing/</guid>
       <description>TL;DR After the progressive development of AI all over the world in March, we reached a whole new level of AI language models. We created Bailing (Lark), which is a series of models that everyone can run locally on low-end personal PCs. Including English and Chinese support.
 What&amp;rsquo;s this? A few months ago, Facebook (Meta) released their open-source language model LLaMA. It&amp;rsquo;s not the same powerful as OpenAI&amp;rsquo;s Chat-GPT, but open source means we can do lots of improvements based on the official model.</description>
-      <content>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
-&lt;p&gt;After the progressive development of AI all over the world in March, we reached a whole new level of AI language models. We created Bailing (Lark), which is a series of models that everyone can run locally on low-end personal PCs. Including English and Chinese support.&lt;/p&gt;
-&lt;h2 id=&#34;whats-this&#34;&gt;What&amp;rsquo;s this?&lt;/h2&gt;
-&lt;p&gt;A few months ago, Facebook (Meta) released their open-source language model LLaMA. It&amp;rsquo;s not the same powerful as OpenAI&amp;rsquo;s Chat-GPT, but open source means we can do lots of improvements based on the official model. Dozen of days later, Team Stanford released their improved version of LLaMA, named Stanford Alpaca, which showed its strong potential. Soon, lots of language models based on LLaMA came out such as Vicuna, Koala and StableLM. All of these models made a huge progress on the AI roadmap. Ethonwork is trying to find a more affordable and efficient way for everyone to make it possible on personal PCs. So&amp;hellip;&lt;/p&gt;
-&lt;h2 id=&#34;introducing-ethonwork-bailing&#34;&gt;Introducing Ethonwork Bailing&lt;/h2&gt;
-&lt;p&gt;In the past few weeks, we tried to improve different base LLaMA models in different ways. Up to now, Bailing has been iterated 4 times. We found that the 4th generation of our model can work in a more accurate and progressive way. Then, we tried to train the model with the same dataset of GPT-4 and produced the first and the main branch of Bailing 4: Bailing 4a.&lt;/p&gt;
-&lt;p&gt;The Bailing 4a models are our mainstream models. Thanks to the GPT-4 training dataset, Bailing 4a model can answer your questions fluently and smoothly with less incorruptions. It is now friendly and polite to users with out tries on the prompt. Changing the prompt will also influence the performance of the model.&lt;/p&gt;
-&lt;h2 id=&#34;keep-developing-for-possibilities&#34;&gt;Keep Developing For Possibilities&lt;/h2&gt;
-&lt;p&gt;Even if 4a models performs very well, we are still not satisfied with it. At the same time, we are also looking for a more diversified development route to provide a relaxing daily-style conversation experience.&lt;/p&gt;
-&lt;p&gt;In this way, we tried Koala and Vicuna, these two models performs very well on assistant-like conversations. Then, we fetched 6.5 billion of pieces of daily conversation data through the entire Internet, which contains about 840 billion words (tokens). After the training, our model can work in a more relaxed state. The answers are more creative, imaginative and interesting. And this, is our next branch, Bailing 4b.&lt;/p&gt;
-&lt;h2 id=&#34;try-with-courage-and-create-more&#34;&gt;Try with Courage, And Create More&lt;/h2&gt;
-&lt;p&gt;Our 4a and 4b models works well in two styles, but both of them are trained only in English. This is the limitation of the original model of LLaMA. It is trained with 40K+ words&amp;rsquo; dictionary entirely in English. This leads to the lack of abilities in other languages, especially the understanding and organizing ability in CJK (Chinese/Japanese/Korean) languages.&lt;/p&gt;
-&lt;p&gt;To try to solve this, we fetched more than 32 billion pieces of Chinese language data and selected only 90 million pieces of them. This is because most of these data is inconsistent with Chinese grammar, incorrect and informal or impolite. I felt the Chinese language system is very complicated, even if I am a Chinese whose mother tongue is Chinese, too. We naturally abandon some necessary or unnecessary grammatical details in daily communication to make the expression more efficient and clear in Chinese. But this is a hard work for an artificial intelligence to understand. Their answers are usually weird and generated in Latin order.&lt;/p&gt;
-&lt;p&gt;Our efforts in the third branch are a reproduction of our recent Chinese language experiments, codename CANGJIE. The large amount of training allows the model to properly generate some basic or advanced Chinese answers politely. And this, is our Bailing 4c.&lt;/p&gt;
-&lt;h2 id=&#34;system-requirements&#34;&gt;System Requirements&lt;/h2&gt;
-&lt;p&gt;You can run Bailing even on a low-end computer with Core 2 Duo. The model only requires 4GB/2GB of unused RAM space and 4GB/3GB of unused disk space to run properly. This means everyone can run this AI chatbot on personal PC or Mac. Thanks to C++, it works on almost all of the operating systems and CPU architectures. All for you to do is download the model files and run the binary file, then enjoy it. We will also provide the source code, so you can compile for your own platform that compatible with C++.&lt;/p&gt;
-&lt;h2 id=&#34;behind-the-result&#34;&gt;Behind The Result&lt;/h2&gt;
-&lt;p&gt;The development of Bailing is inseparable from the support of many open-source projects. Here, we give special thanks to the following projects:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;llama.cpp: It is a inference of LLaMA model in pure C/C++. We can quantize our model to reduce the size and significantly reduce the use of system sources. Also, we used this as our user interface.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;llama: This is the base model of Bailing, it also helped Bailing to work in a user-friendly way.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;stanford_alpaca: This project helped us a lot to fine-tuning the model.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;At the same time, other projects also helped us a lot to create Bailing. We won&amp;rsquo;t repeat them here because of the length of the post. We will make a list later on our website.  We&amp;rsquo;re very sorry for this.&lt;/p&gt;
-&lt;h2 id=&#34;what-about-others&#34;&gt;What About Others&lt;/h2&gt;
-&lt;p&gt;You can view other information and tech details on our official website, and the project instruction page &lt;a href=&#34;https://www.nwyz.eu.org/beta/PageStorage/Projects/Bailing/bailing.html&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-</content>
     </item>
     
     <item>
@@ -60,77 +27,6 @@ What&amp;rsquo;s this? A few months ago, Facebook (Meta) released their open-sou
       <description>Before we start Hi! I&amp;rsquo;m back, today we are going to use Markdown, which is a powerful lightweight markup language for creating beautiful formatted text using only a text editor.
 Part 1: Install a better text editor There are many software compatible with Markdown syntax and some of them have their own features. Out of all these, I suggest to use:
 Visual Studio Code (Recommended), which is a powerful editor by Microsoft.</description>
-      <content>&lt;h2 id=&#34;before-we-start&#34;&gt;Before we start&lt;/h2&gt;
-&lt;p&gt;Hi! I&amp;rsquo;m back, today we are going to use Markdown, which is a powerful lightweight markup language for creating beautiful formatted text using only a text editor.&lt;/p&gt;
-&lt;h2 id=&#34;part-1-install-a-better-text-editor&#34;&gt;Part 1: Install a better text editor&lt;/h2&gt;
-&lt;p&gt;There are many software compatible with Markdown syntax and some of them have their own features. Out of all these, I suggest to use:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://code.visualstudio.com/&#34;&gt;&lt;strong&gt;Visual Studio Code&lt;/strong&gt;&lt;/a&gt; &lt;em&gt;(Recommended)&lt;/em&gt;, which is a powerful editor by Microsoft. It has friendly user interface, quick release/git experience and easy Markdown extension experience. Actually, its compatibility is extremely good, it works on &lt;strong&gt;Windows 8,10,11 x86/x64/arm64&lt;/strong&gt;, almost every &lt;strong&gt;Linux x64/arm32/arm64&lt;/strong&gt; distros, &lt;strong&gt;macOS 10.11+ Intel/Apple&lt;/strong&gt; and even a &lt;a href=&#34;https://vscode.dev/&#34;&gt;&lt;strong&gt;Web Version&lt;/strong&gt;&lt;/a&gt;. The best for beginners.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/marktext/marktext&#34;&gt;&lt;strong&gt;MarkText&lt;/strong&gt;&lt;/a&gt;, a simple and elegant open-source markdown editor that focused on speed and usability. Provides a familiar user interface and extreme editing/reading experience. If you want a quick, open-source editor, just try MarkText. It works on &lt;strong&gt;Windows x86/x64&lt;/strong&gt;, &lt;strong&gt;Linux x64&lt;/strong&gt; and &lt;strong&gt;macOS x64&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://notepad-plus-plus.org/downloads/&#34;&gt;&lt;strong&gt;Notepad ++&lt;/strong&gt;&lt;/a&gt;, which is another excellent text editor for Markdown with plug-ins. It works well on &lt;strong&gt;Windows&lt;/strong&gt; platform.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://typora.io/&#34;&gt;&lt;strong&gt;Typora&lt;/strong&gt;&lt;/a&gt; is a minimal Markdown editor/reader. It has seamless live preview which meaning what you see is what you mean. Themes looks quite good in Typora but it&amp;rsquo;s no longer free right now. Works well on &lt;strong&gt;Windows x86/x64/arm64&lt;/strong&gt;, &lt;strong&gt;Linux x64/arm64&lt;/strong&gt; and &lt;strong&gt;macOS with Intel chips&lt;/strong&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;part-2-creating-basic-formats&#34;&gt;Part 2: Creating basic formats&lt;/h2&gt;
-&lt;p&gt;For the tutorial, I will use Visual Studio Code for the demo and you can pick your favorite.&lt;/p&gt;
-&lt;h4 id=&#34;1-installing-extensions&#34;&gt;1. Installing extensions&lt;/h4&gt;
-&lt;p&gt;(1) Open Visual Studio Code, and click the &lt;strong&gt;&amp;ldquo;Extension&amp;rdquo;&lt;/strong&gt; tab on the left (or you can use &lt;code&gt;Ctrl+Shift+X&lt;/code&gt;)&lt;br&gt;
-(2) Search &lt;strong&gt;&amp;ldquo;Markdown All in One&amp;rdquo;&lt;/strong&gt; and click &lt;strong&gt;&amp;ldquo;Install&amp;rdquo;&lt;/strong&gt;&lt;br&gt;
-(3) Search &lt;strong&gt;&amp;ldquo;Auto-Open Markdown Preview&amp;rdquo;&lt;/strong&gt; and click &lt;strong&gt;&amp;ldquo;Install&amp;rdquo;&lt;/strong&gt;&lt;br&gt;
-(4) Now reopen Visual Studio Code.&lt;/p&gt;
-&lt;h4 id=&#34;2-create-a-markdown-file&#34;&gt;2. Create a Markdown file&lt;/h4&gt;
-&lt;p&gt;(1) After reopened Visual Studio Code, click &lt;strong&gt;&amp;ldquo;File&amp;rdquo;&lt;/strong&gt; on the top left corner of the window and then click &lt;strong&gt;&amp;ldquo;New File&amp;hellip;&amp;rdquo;&lt;/strong&gt;.&lt;br&gt;
-(2) Type &lt;strong&gt;&amp;quot;&lt;em&gt;xxx&lt;/em&gt;.md&amp;quot;&lt;/strong&gt; and hit &lt;strong&gt;ENTER&lt;/strong&gt;, then choose a directory and now the file will open. *&lt;strong&gt;If your extension installed correctly, you can see a Preview window on the right hand side.&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&#34;part-3-commonly-used-markdown-syntax&#34;&gt;Part 3: Commonly used Markdown syntax&lt;/h2&gt;
-&lt;p&gt;The easy syntax is the core of Markdown, it&amp;rsquo;s not difficult with only some punctuations.&lt;/p&gt;
-&lt;h4 id=&#34;1-headings&#34;&gt;1. Headings&lt;/h4&gt;
-&lt;p&gt;Headings in markdown is &lt;strong&gt;just with &lt;code&gt;#&lt;/code&gt;&lt;/strong&gt;. Write in your file like this:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-Markdown&#34; data-lang=&#34;Markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# This is a level 1 heading
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;## This is a level 2 heading
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;### This is a level 3 heading
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#### This is a level 4 heading
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;##### This is a level 5 heading
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;###### This is a level 6 heading
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&#34;https://www.nwyz.eu.org/files/mddemo1.html&#34;&gt;And it looks like this (Click to view)&lt;/a&gt;&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;✅ Right&lt;/th&gt;
-&lt;th&gt;❌ Wrong&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;# Heading with a space&lt;/td&gt;
-&lt;td&gt;#Heading without space&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;The first line before a blank line&lt;/br&gt;&lt;/br&gt;# Put heading here&lt;/br&gt;&lt;/br&gt;The third line after another blank line&lt;/td&gt;
-&lt;td&gt;The first line without a blank line&lt;/br&gt;# DON&amp;rsquo;T DO THIS&lt;/br&gt;The third line without a blank line&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h4 id=&#34;2-newline&#34;&gt;2. Newline&lt;/h4&gt;
-&lt;p&gt;To create a new line, just type 2 spaces at the end of the first line and then type the second line.&lt;br&gt;
-Type in your file like this:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-Markdown&#34; data-lang=&#34;Markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;THIS IS THE FIRST LINE     &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;-there&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;are&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;2&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;spaces&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;here&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;THIS&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;IS&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;THE&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;SECOND&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;LINE&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;✅ Right&lt;/th&gt;
-&lt;th&gt;❌ Wrong&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;The first line  &lt;/br&gt;The second line&lt;/td&gt;
-&lt;td&gt;The first line  The second line&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;TO BE CONTINUED&lt;/strong&gt;&lt;/p&gt;
-</content>
     </item>
     
     <item>
@@ -142,142 +38,6 @@ Type in your file like this:&lt;/p&gt;
       <description>Before we start You can create your own website for free in less than 30 minutes with this tutorial without coding.
 Part 1: Create a Github Pages repository We will use a Github repository to store our website files, so we should create a Github account (if not yet) and create a repo. It&amp;rsquo;s easy, just do the following steps:
 0. Create a Github account (if you don&amp;rsquo;t have one yet) We can go to Join Github (Click to jump) and register an account.</description>
-      <content>&lt;hr&gt;
-&lt;h2 id=&#34;before-we-start&#34;&gt;Before we start&lt;/h2&gt;
-&lt;p&gt;You can create your own website for free in less than 30 minutes with this tutorial without coding.&lt;/p&gt;
-&lt;h2 id=&#34;part-1-create-a-github-pages-repository&#34;&gt;Part 1: Create a Github Pages repository&lt;/h2&gt;
-&lt;p&gt;We will use a Github repository to store our website files, so we should create a Github account (if not yet) and create a repo. It&amp;rsquo;s easy, just do the following steps:&lt;/p&gt;
-&lt;h4 id=&#34;0-create-a-github-account-if-you-dont-have-one-yet&#34;&gt;0. Create a Github account (if you don&amp;rsquo;t have one yet)&lt;/h4&gt;
-&lt;p&gt;We can go to &lt;strong&gt;&lt;a href=&#34;https://github.com/join&#34; title=&#34;Click to jump&#34;&gt;Join Github&lt;/a&gt;&lt;/strong&gt; (Click to jump) and register an account. I recommended using only &lt;strong&gt;lowercase letters or numbers for the username.&lt;/strong&gt; Then, just choose the &lt;strong&gt;free subscription&lt;/strong&gt; and you will receive a verify mail soon in your inbox, click &lt;strong&gt;VERIFY&lt;/strong&gt; and now you created your own Github account.&lt;/p&gt;
-&lt;h4 id=&#34;1-create-a-repository-for-your-site&#34;&gt;1. Create a repository for your site&lt;/h4&gt;
-&lt;p&gt;Go to &lt;strong&gt;&lt;a href=&#34;https://github.com/&#34; title=&#34;Click to jump&#34;&gt;Github&lt;/a&gt;&lt;/strong&gt; and click the &lt;strong&gt;&amp;quot;+&amp;quot;&lt;/strong&gt; on the top-right corner of the github homepage then click &lt;strong&gt;&amp;ldquo;New repository&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://i.postimg.cc/L4Z4RcbJ/create-repo.png&#34;&gt;&lt;img src=&#34;https://i.postimg.cc/L4Z4RcbJ/create-repo.png&#34; alt=&#34;Click on &amp;amp;ldquo;New repository&amp;amp;rdquo;&#34; title=&#34;Create Repo&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Then enter your repository name like &lt;strong&gt;username.github.io&lt;/strong&gt;, use your username to replace the &amp;ldquo;username&amp;rdquo;, this will be the domain name of your site if you don&amp;rsquo;t wanna to change the domain name later in Part 4. For example, my username is &lt;em&gt;nwkyz&lt;/em&gt; so I entered &lt;em&gt;nwkyz.github.io&lt;/em&gt; as my repository name.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://i.postimg.cc/sgpx9krB/username.png&#34;&gt;&lt;img src=&#34;https://i.postimg.cc/sgpx9krB/username.png&#34; alt=&#34;Enter your repository name&#34; title=&#34;repo name&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;At last, set your repository as &lt;strong&gt;Public&lt;/strong&gt; and leave other settings default.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://i.postimg.cc/WzLbk8Hm/setaspublic.png&#34;&gt;&lt;img src=&#34;https://i.postimg.cc/WzLbk8Hm/setaspublic.png&#34; alt=&#34;Set as Public&#34; title=&#34;Set as Public repository&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Click &amp;ldquo;Create Repository&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
-&lt;h4 id=&#34;2-create-a-commit&#34;&gt;2. Create a commit&lt;/h4&gt;
-&lt;p&gt;After we created the repository, Github will automatically jump to the Quick Setup page, just click on the blue &lt;strong&gt;&amp;ldquo;README&amp;rdquo;&lt;/strong&gt; below the SSH link.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://i.postimg.cc/d0yZh5s6/add-README.png&#34;&gt;&lt;img src=&#34;https://i.postimg.cc/d0yZh5s6/add-README.png&#34; alt=&#34;Click on &amp;amp;ldquo;README&amp;amp;rdquo;&#34; title=&#34;Click on README&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Just type something in the README.md file and click &lt;strong&gt;&amp;ldquo;Commit new file&amp;rdquo;&lt;/strong&gt; button on the bottom of the page.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://i.postimg.cc/mrnx5SCv/typesomething.png&#34;&gt;&lt;img src=&#34;https://i.postimg.cc/mrnx5SCv/typesomething.png&#34; alt=&#34;Just type something in it&#34; title=&#34;Type something&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://i.postimg.cc/MTXPfc3q/commitnewfile.png&#34;&gt;&lt;img src=&#34;https://i.postimg.cc/MTXPfc3q/commitnewfile.png&#34; alt=&#34;Click Commit new file&#34; title=&#34;Click Commit&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h4 id=&#34;3-check&#34;&gt;3. Check&lt;/h4&gt;
-&lt;p&gt;Now visit &lt;a href=&#34;https://username.github.io/&#34;&gt;https://username.github.io/&lt;/a&gt; (&lt;strong&gt;replace &amp;ldquo;username&amp;rdquo; as your own Github username&lt;/strong&gt;) and you can see the content of the README.md we&amp;rsquo;ve already created a few seconds ago&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;PS: If there&amp;rsquo;s any problem, please create a comment below this blog post&lt;/em&gt;&lt;/p&gt;
-&lt;h2 id=&#34;part-2-create-your-site-content&#34;&gt;Part 2: Create your site content&lt;/h2&gt;
-&lt;p&gt;We just finished creating Github repository, but our site needs some content. So this part will tell you how to create website contents easily without coding.&lt;/p&gt;
-&lt;h4 id=&#34;software&#34;&gt;Software&lt;/h4&gt;
-&lt;p&gt;There are many frameworks to create site contents, in this part, I&amp;rsquo;ll introduce how to use Hugo and PageFabric to create a beautiful site, both of them are free software.&lt;/p&gt;
-&lt;h4 id=&#34;comparison&#34;&gt;Comparison&lt;/h4&gt;
-&lt;p&gt;PageFabric - Create beautiful websites without coding &lt;a href=&#34;https://pagefabric-app.com/&#34;&gt;(Official Site)&lt;/a&gt; :&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;ul&gt;
-&lt;li&gt;Friendly interface for beginners&lt;/li&gt;
-&lt;li&gt;Easily install and configure with Microsoft Store&lt;/li&gt;
-&lt;li&gt;Create site with drag and drop quickly&lt;/li&gt;
-&lt;li&gt;Looks really nice&lt;/li&gt;
-&lt;li&gt;Simple SEO and publication settings&lt;/li&gt;
-&lt;li&gt;Fluent/Fabric/Material Design&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Better for building static sites&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;ul&gt;
-&lt;li&gt;Client only works on Windows 10/11&lt;/li&gt;
-&lt;li&gt;Less customization&lt;/li&gt;
-&lt;li&gt;Page layouts have some limitations&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Hugo - The world’s fastest framework for building websites &lt;a href=&#34;https://gohugo.io/&#34;&gt;(Official Site)&lt;/a&gt; :&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;ul&gt;
-&lt;li&gt;Lightweight, flexible and open-source&lt;/li&gt;
-&lt;li&gt;Works on almost every OS, or you can also compile by yourself&lt;/li&gt;
-&lt;li&gt;Operating in terminal*&lt;/li&gt;
-&lt;li&gt;Thousands of themes&lt;/li&gt;
-&lt;li&gt;Support Markdown&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Better for building blogs&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;ul&gt;
-&lt;li&gt;No graphics interface&lt;/li&gt;
-&lt;li&gt;Some limitations from Markdown&lt;/li&gt;
-&lt;li&gt;Needs some coding**&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;For more details, I will make another tutorial post later.&lt;/p&gt;
-&lt;h2 id=&#34;part-3-release-your-website&#34;&gt;Part 3: Release your website&lt;/h2&gt;
-&lt;p&gt;We&amp;rsquo;ve just created our first webpage and now we should push our site files from local to your Github repository with &lt;strong&gt;GitHub Desktop&lt;/strong&gt; application.&lt;/p&gt;
-&lt;h4 id=&#34;1-install-github-desktop&#34;&gt;1. Install Github Desktop&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;On Windows or macOS:&lt;/strong&gt; You can install this easily. Visit the site &lt;a href=&#34;https://desktop.github.com/&#34;&gt;https://desktop.github.com/&lt;/a&gt; and click &lt;strong&gt;Download for Windows (64-bit)&lt;/strong&gt; or &lt;strong&gt;Download for macOS&lt;/strong&gt; then you can easily install with the installer.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;On Linux:&lt;/strong&gt; Github doesn&amp;rsquo;t have an official application for Linux. But thanks to shiftkey/desktop, which is working to support Linux platform, we can use Github Desktop based on Electron on Linux. Visit the repo &lt;a href=&#34;https://github.com/shiftkey/desktop/releases/&#34;&gt;(Click to visit)&lt;/a&gt; and &lt;strong&gt;download the .deb/.rpm/.Appimage file&lt;/strong&gt; of the latest release. &lt;em&gt;If you&amp;rsquo;re using debian/ubuntu based distros that uses dpkg, you should download the .deb one; if you&amp;rsquo;re using RedHat based distros, you should download the .rpm one, or you can &lt;strong&gt;choose the .Appimage one if you aren&amp;rsquo;t sure&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;If you chosen the .Appimage one: Just double click on the file and Github Desktop will launch. If it doesn&amp;rsquo;t work, right click on the file and click Properties, then enable &amp;ldquo;Allow this file to run as a program&amp;rdquo; in the Permissions tab, and double click on the file again.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;If you chosen the .deb/.rpm one: You can open a terminal in your download directory, and type the commands below the hit Enter.&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;sudo dpkg -i ./*.deb&lt;/code&gt;  for the .deb one or &lt;code&gt;sudo rpm -ivh ./*.rpm&lt;/code&gt; for the .rpm one.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;2-set-up-your-repository-clone&#34;&gt;2. Set up your repository clone&lt;/h4&gt;
-&lt;p&gt;After installing Github Desktop, we should clone your repository to your computer so you can edit your files and commit changes locally and quickly.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Launch Github Desktop&lt;/li&gt;
-&lt;li&gt;Log into your Github account&lt;/li&gt;
-&lt;li&gt;Choose your &lt;em&gt;username.github.io&lt;/em&gt; repository then pick a local directory to store your repository files&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;After the 3 steps, you can see a interface just like this and a &lt;em&gt;username.github.io&lt;/em&gt; folder as your local repository directory:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://i.postimg.cc/GpzB3M5Z/ghdesktop.png&#34;&gt;&lt;img src=&#34;https://i.postimg.cc/GpzB3M5Z/ghdesktop.png&#34; alt=&#34;Github Desktop application homepage&#34; title=&#34;Github Desktop&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h4 id=&#34;3-copy-your-website-files-into-the-repository-directory&#34;&gt;3. Copy your website files into the repository directory&lt;/h4&gt;
-&lt;p&gt;Copy your website files we built in Part 2 into your repository directory. If you operated properly, you can see many files including an &lt;strong&gt;index.html&lt;/strong&gt; in your repository directory (named like &lt;em&gt;username.github.io&lt;/em&gt;)&lt;/p&gt;
-&lt;h4 id=&#34;4-commit-changes-and-push-origin&#34;&gt;4. Commit changes and push origin&lt;/h4&gt;
-&lt;p&gt;Then back to Github Desktop, some changes will appear on the left in a few seconds, type something in the &lt;strong&gt;&amp;ldquo;Summary(required)&amp;rdquo;&lt;/strong&gt; textbox then click &lt;strong&gt;Commit to main&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&#34;part-4-customize-domain-name&#34;&gt;Part 4: Customize Domain Name&lt;/h2&gt;
-&lt;p&gt;If you want to change the domain name, just follow the Part 4.&lt;/p&gt;
-&lt;p&gt;You can change the domain name to the following examples for free :&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;XXX.eu.org&lt;/code&gt;  with eu.org&amp;rsquo;s service (not recommended for beginners)&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;XXX.tk&lt;/code&gt; with Freenom&amp;rsquo;s service&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;XXX.ml&lt;/code&gt; with Freenom&amp;rsquo;s service&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;XXX.ga&lt;/code&gt; with Freenom&amp;rsquo;s service&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;XXX.cf&lt;/code&gt; with Freenom&amp;rsquo;s service&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;XXX.gq&lt;/code&gt; with Freenom&amp;rsquo;s service&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;1-get-a-domain-name&#34;&gt;1. Get a domain name&lt;/h4&gt;
-&lt;p&gt;Visit the site &lt;a href=&#34;https://www.freenom.com&#34;&gt;www.freenom.com&lt;/a&gt; and type the prefix you want in the &amp;ldquo;Find a new FREE domain&amp;rdquo; and then click &amp;ldquo;Check Availability&amp;rdquo;. If it&amp;rsquo;s available, just click the blue &amp;ldquo;Get it now&amp;rdquo; and then the green &amp;ldquo;Checkout&amp;rdquo;. In the &amp;ldquo;Period&amp;rdquo; column, you can change the expiration date up to 12 Months for free, &lt;em&gt;(you can do this again after 12 months, I will post another blog later for a permanent service)&lt;/em&gt;. Click &amp;ldquo;Continue&amp;rdquo; then enter your email and click &amp;ldquo;Verify My Email Address&amp;rdquo;. You&amp;rsquo;ll find a verify email in your inbox soon. If there&amp;rsquo;s not, check if it&amp;rsquo;s in the junk list or if the email address you typed is invalid. If you got the email, just follow the guide and verify it.&lt;/p&gt;
-&lt;p&gt;Then, back to the Freenom&amp;rsquo;s checkout page and buy the domain for $0.00USD. &lt;strong&gt;There aren&amp;rsquo;t any requirements for a credit card or payments. If there is, check if the domain you chosen is free.&lt;/strong&gt;&lt;/p&gt;
-&lt;h4 id=&#34;2-configure-the-dns-settings&#34;&gt;2. Configure the DNS settings&lt;/h4&gt;
-&lt;p&gt;Go to &lt;a href=&#34;https://my.freenom.com/clientarea.php?action=domains&#34;&gt;&amp;ldquo;My Domains&amp;rdquo;&lt;/a&gt; on Freemon, then click &amp;ldquo;Manage Domain&amp;rdquo; on the right of your domain name. Click &lt;strong&gt;&amp;ldquo;Management Tools&amp;rdquo; &amp;gt; &amp;ldquo;Nameservers&amp;rdquo;&lt;/strong&gt;, make sure it points to &lt;strong&gt;&amp;ldquo;Use default nameservers (Freenom Nameservers)&amp;rdquo;&lt;/strong&gt; and then click &lt;strong&gt;&amp;ldquo;Manage Freenom DNS&amp;rdquo;&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Now:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Type &lt;code&gt;www&lt;/code&gt; in &amp;ldquo;Name&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;Change &amp;ldquo;Type&amp;rdquo; to &lt;code&gt;CNAME&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Set &amp;ldquo;TTL&amp;rdquo; to &lt;code&gt;600&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Set &amp;ldquo;Target&amp;rdquo; to your github domain name (looks like xxxx.github.io, it&amp;rsquo;s also your site repository name)&lt;/li&gt;
-&lt;li&gt;Click &amp;ldquo;Save Changes&amp;rdquo;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;3-apply-changes-to-github-repository&#34;&gt;3. Apply changes to Github repository&lt;/h4&gt;
-&lt;p&gt;Now, we set up our own domain name and DNS settings. We should also create a &lt;code&gt;CNAME&lt;/code&gt; file in the root directory of your repository so that Github can send its domain name to yours.&lt;/p&gt;
-&lt;p&gt;Go to your repository page, click &amp;ldquo;Add file&amp;rdquo; then &amp;ldquo;Create a new file&amp;rdquo;.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://i.postimg.cc/x1TbQ5sR/addcname.png&#34;&gt;&lt;img src=&#34;https://i.postimg.cc/x1TbQ5sR/addcname.png&#34; alt=&#34;Add CNAME&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Type &lt;code&gt;CNAME&lt;/code&gt; in &amp;ldquo;Name your file&amp;rdquo; and then type your own domain name below in the file&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://i.postimg.cc/c1FSjcnZ/cname.png&#34;&gt;&lt;img src=&#34;https://i.postimg.cc/c1FSjcnZ/cname.png&#34; alt=&#34;Edit CNAME&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Then, scroll down and click &amp;ldquo;Commit new file&amp;rdquo;&lt;/p&gt;
-&lt;h4 id=&#34;4-all-done&#34;&gt;4. All Done!&lt;/h4&gt;
-&lt;p&gt;After a few minutes, you can visit your own site with both &lt;code&gt;xxx.github.io&lt;/code&gt; and &lt;code&gt;www + your own domain name&lt;/code&gt; .&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;we-did-this&#34;&gt;We did this!&lt;/h2&gt;
-&lt;p&gt;The tutorial is finished here, you can now enjoy your own website if everything is fine. Good luck!&lt;/p&gt;
-&lt;p&gt;If you have and problems, just comment below。&lt;/p&gt;
-</content>
     </item>
     
   </channel>

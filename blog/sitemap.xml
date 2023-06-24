@@ -8,10 +8,10 @@
     <loc>https://www.nwyz.eu.org/blog/tags/bailing/</loc>
     <lastmod>2023-04-22T13:05:46+08:00</lastmod>
   </url><url>
-    <loc>https://www.nwyz.eu.org/blog/</loc>
+    <loc>https://www.nwyz.eu.org/blog/tags/gpt/</loc>
     <lastmod>2023-04-22T13:05:46+08:00</lastmod>
   </url><url>
-    <loc>https://www.nwyz.eu.org/blog/tags/gpt/</loc>
+    <loc>https://www.nwyz.eu.org/blog/</loc>
     <lastmod>2023-04-22T13:05:46+08:00</lastmod>
   </url><url>
     <loc>https://www.nwyz.eu.org/blog/posts/3-introducing-bailing/</loc>
@@ -56,6 +56,8 @@
     <loc>https://www.nwyz.eu.org/blog/tags/no-coding/</loc>
     <lastmod>2023-01-05T16:42:21+08:00</lastmod>
   </url><url>
-    <loc>https://www.nwyz.eu.org/blog/categories/</loc>
+    <loc>https://www.nwyz.eu.org/blog/blog/</loc>
+  </url><url>
+    <loc>https://www.nwyz.eu.org/blog/series/</loc>
   </url>
 </urlset>

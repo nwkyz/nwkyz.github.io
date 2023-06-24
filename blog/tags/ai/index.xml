@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>AI on ExhYZ&#39;s Blog</title>
+    <title>AI on Hi, this is ExhYZ.</title>
     <link>https://www.nwyz.eu.org/blog/tags/ai/</link>
-    <description>Recent content in AI on ExhYZ&#39;s Blog</description>
+    <description>Recent content in AI on Hi, this is ExhYZ.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright ExhYZ 2018-</copyright>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Sat, 22 Apr 2023 13:05:46 +0800</lastBuildDate><atom:link href="https://www.nwyz.eu.org/blog/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introducing Ethonwork Bailing</title>
@@ -16,39 +16,6 @@
       <guid>https://www.nwyz.eu.org/blog/posts/3-introducing-bailing/</guid>
       <description>TL;DR After the progressive development of AI all over the world in March, we reached a whole new level of AI language models. We created Bailing (Lark), which is a series of models that everyone can run locally on low-end personal PCs. Including English and Chinese support.
 What&amp;rsquo;s this? A few months ago, Facebook (Meta) released their open-source language model LLaMA. It&amp;rsquo;s not the same powerful as OpenAI&amp;rsquo;s Chat-GPT, but open source means we can do lots of improvements based on the official model.</description>
-      <content>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
-&lt;p&gt;After the progressive development of AI all over the world in March, we reached a whole new level of AI language models. We created Bailing (Lark), which is a series of models that everyone can run locally on low-end personal PCs. Including English and Chinese support.&lt;/p&gt;
-&lt;h2 id=&#34;whats-this&#34;&gt;What&amp;rsquo;s this?&lt;/h2&gt;
-&lt;p&gt;A few months ago, Facebook (Meta) released their open-source language model LLaMA. It&amp;rsquo;s not the same powerful as OpenAI&amp;rsquo;s Chat-GPT, but open source means we can do lots of improvements based on the official model. Dozen of days later, Team Stanford released their improved version of LLaMA, named Stanford Alpaca, which showed its strong potential. Soon, lots of language models based on LLaMA came out such as Vicuna, Koala and StableLM. All of these models made a huge progress on the AI roadmap. Ethonwork is trying to find a more affordable and efficient way for everyone to make it possible on personal PCs. So&amp;hellip;&lt;/p&gt;
-&lt;h2 id=&#34;introducing-ethonwork-bailing&#34;&gt;Introducing Ethonwork Bailing&lt;/h2&gt;
-&lt;p&gt;In the past few weeks, we tried to improve different base LLaMA models in different ways. Up to now, Bailing has been iterated 4 times. We found that the 4th generation of our model can work in a more accurate and progressive way. Then, we tried to train the model with the same dataset of GPT-4 and produced the first and the main branch of Bailing 4: Bailing 4a.&lt;/p&gt;
-&lt;p&gt;The Bailing 4a models are our mainstream models. Thanks to the GPT-4 training dataset, Bailing 4a model can answer your questions fluently and smoothly with less incorruptions. It is now friendly and polite to users with out tries on the prompt. Changing the prompt will also influence the performance of the model.&lt;/p&gt;
-&lt;h2 id=&#34;keep-developing-for-possibilities&#34;&gt;Keep Developing For Possibilities&lt;/h2&gt;
-&lt;p&gt;Even if 4a models performs very well, we are still not satisfied with it. At the same time, we are also looking for a more diversified development route to provide a relaxing daily-style conversation experience.&lt;/p&gt;
-&lt;p&gt;In this way, we tried Koala and Vicuna, these two models performs very well on assistant-like conversations. Then, we fetched 6.5 billion of pieces of daily conversation data through the entire Internet, which contains about 840 billion words (tokens). After the training, our model can work in a more relaxed state. The answers are more creative, imaginative and interesting. And this, is our next branch, Bailing 4b.&lt;/p&gt;
-&lt;h2 id=&#34;try-with-courage-and-create-more&#34;&gt;Try with Courage, And Create More&lt;/h2&gt;
-&lt;p&gt;Our 4a and 4b models works well in two styles, but both of them are trained only in English. This is the limitation of the original model of LLaMA. It is trained with 40K+ words&amp;rsquo; dictionary entirely in English. This leads to the lack of abilities in other languages, especially the understanding and organizing ability in CJK (Chinese/Japanese/Korean) languages.&lt;/p&gt;
-&lt;p&gt;To try to solve this, we fetched more than 32 billion pieces of Chinese language data and selected only 90 million pieces of them. This is because most of these data is inconsistent with Chinese grammar, incorrect and informal or impolite. I felt the Chinese language system is very complicated, even if I am a Chinese whose mother tongue is Chinese, too. We naturally abandon some necessary or unnecessary grammatical details in daily communication to make the expression more efficient and clear in Chinese. But this is a hard work for an artificial intelligence to understand. Their answers are usually weird and generated in Latin order.&lt;/p&gt;
-&lt;p&gt;Our efforts in the third branch are a reproduction of our recent Chinese language experiments, codename CANGJIE. The large amount of training allows the model to properly generate some basic or advanced Chinese answers politely. And this, is our Bailing 4c.&lt;/p&gt;
-&lt;h2 id=&#34;system-requirements&#34;&gt;System Requirements&lt;/h2&gt;
-&lt;p&gt;You can run Bailing even on a low-end computer with Core 2 Duo. The model only requires 4GB/2GB of unused RAM space and 4GB/3GB of unused disk space to run properly. This means everyone can run this AI chatbot on personal PC or Mac. Thanks to C++, it works on almost all of the operating systems and CPU architectures. All for you to do is download the model files and run the binary file, then enjoy it. We will also provide the source code, so you can compile for your own platform that compatible with C++.&lt;/p&gt;
-&lt;h2 id=&#34;behind-the-result&#34;&gt;Behind The Result&lt;/h2&gt;
-&lt;p&gt;The development of Bailing is inseparable from the support of many open-source projects. Here, we give special thanks to the following projects:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;llama.cpp: It is a inference of LLaMA model in pure C/C++. We can quantize our model to reduce the size and significantly reduce the use of system sources. Also, we used this as our user interface.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;llama: This is the base model of Bailing, it also helped Bailing to work in a user-friendly way.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;stanford_alpaca: This project helped us a lot to fine-tuning the model.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;At the same time, other projects also helped us a lot to create Bailing. We won&amp;rsquo;t repeat them here because of the length of the post. We will make a list later on our website.  We&amp;rsquo;re very sorry for this.&lt;/p&gt;
-&lt;h2 id=&#34;what-about-others&#34;&gt;What About Others&lt;/h2&gt;
-&lt;p&gt;You can view other information and tech details on our official website, and the project instruction page &lt;a href=&#34;https://www.nwyz.eu.org/beta/PageStorage/Projects/Bailing/bailing.html&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-</content>
     </item>
     
   </channel>

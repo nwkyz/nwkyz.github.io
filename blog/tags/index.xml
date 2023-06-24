@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on ExhYZ&#39;s Blog</title>
+    <title>Tags on Hi, this is ExhYZ.</title>
     <link>https://www.nwyz.eu.org/blog/tags/</link>
-    <description>Recent content in Tags on ExhYZ&#39;s Blog</description>
+    <description>Recent content in Tags on Hi, this is ExhYZ.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright ExhYZ 2018-</copyright>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Sat, 22 Apr 2023 13:05:46 +0800</lastBuildDate><atom:link href="https://www.nwyz.eu.org/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI</title>
@@ -15,7 +15,6 @@
       
       <guid>https://www.nwyz.eu.org/blog/tags/ai/</guid>
       <description></description>
-      <content></content>
     </item>
     
     <item>
@@ -25,7 +24,6 @@
       
       <guid>https://www.nwyz.eu.org/blog/tags/bailing/</guid>
       <description></description>
-      <content></content>
     </item>
     
     <item>
@@ -35,7 +33,6 @@
       
       <guid>https://www.nwyz.eu.org/blog/tags/gpt/</guid>
       <description></description>
-      <content></content>
     </item>
     
     <item>
@@ -45,7 +42,6 @@
       
       <guid>https://www.nwyz.eu.org/blog/tags/language-model/</guid>
       <description></description>
-      <content></content>
     </item>
     
     <item>
@@ -55,7 +51,6 @@
       
       <guid>https://www.nwyz.eu.org/blog/tags/crash-course/</guid>
       <description></description>
-      <content></content>
     </item>
     
     <item>
@@ -65,7 +60,6 @@
       
       <guid>https://www.nwyz.eu.org/blog/tags/markdown/</guid>
       <description></description>
-      <content></content>
     </item>
     
     <item>
@@ -75,7 +69,6 @@
       
       <guid>https://www.nwyz.eu.org/blog/tags/tutorial/</guid>
       <description></description>
-      <content></content>
     </item>
     
     <item>
@@ -85,7 +78,6 @@
       
       <guid>https://www.nwyz.eu.org/blog/tags/beginners/</guid>
       <description></description>
-      <content></content>
     </item>
     
     <item>
@@ -95,7 +87,6 @@
       
       <guid>https://www.nwyz.eu.org/blog/tags/create-website/</guid>
       <description></description>
-      <content></content>
     </item>
     
     <item>
@@ -105,7 +96,6 @@
       
       <guid>https://www.nwyz.eu.org/blog/tags/freenom/</guid>
       <description></description>
-      <content></content>
     </item>
     
     <item>
@@ -115,7 +105,6 @@
       
       <guid>https://www.nwyz.eu.org/blog/tags/github-pages/</guid>
       <description></description>
-      <content></content>
     </item>
     
     <item>
@@ -125,7 +114,6 @@
       
       <guid>https://www.nwyz.eu.org/blog/tags/no-coding/</guid>
       <description></description>
-      <content></content>
     </item>
     
   </channel>
