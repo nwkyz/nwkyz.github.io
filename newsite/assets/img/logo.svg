@@ -7,8 +7,8 @@
    viewBox="0 0 560 110"
    version="1.1"
    id="svg5"
-   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-   sodipodi:docname="newlogo.svg"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   sodipodi:docname="logo.svg"
    inkscape:export-filename="logo.png"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300"
@@ -27,27 +27,15 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="true"
-     inkscape:zoom="1.5251403"
-     inkscape:cx="64.256383"
-     inkscape:cy="60.322319"
-     inkscape:window-width="1717"
-     inkscape:window-height="918"
-     inkscape:window-x="151"
-     inkscape:window-y="38"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="layer1">
-    <inkscape:grid
-       type="xygrid"
-       id="grid129"
-       dotted="false"
-       color="#39e500"
-       opacity="0.14901961"
-       empcolor="#3fe500"
-       empopacity="0.30196078"
-       snapvisiblegridlinesonly="true"
-       originx="0"
-       originy="0" />
-  </sodipodi:namedview>
+     inkscape:zoom="7.6035544"
+     inkscape:cx="443.80559"
+     inkscape:cy="44.65017"
+     inkscape:window-width="1920"
+     inkscape:window-height="1044"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
   <defs
      id="defs2">
     <rect
@@ -69,38 +57,11 @@
      id="layer1">
     <g
        id="g1341">
-      <rect
-         style="fill:#ffffff;stroke-width:0.285064"
-         id="rect298"
-         width="35.000004"
-         height="10"
-         x="30"
-         y="30"
-         inkscape:label="H1" />
-      <rect
-         style="fill:#ffffff;stroke-width:0.286047"
-         id="rect300"
-         width="29.999998"
-         height="10"
-         x="30"
-         y="50"
-         inkscape:label="H2" />
-      <rect
-         style="fill:#ffffff;stroke-width:0.279939"
-         id="rect302"
-         width="35.000004"
-         height="10"
-         x="30"
-         y="70"
-         inkscape:label="H3" />
-      <rect
-         style="fill:#ffffff;stroke-width:0.301312"
+      <path
          id="rect304"
-         width="10.000001"
-         height="50.000004"
-         x="27"
-         y="30"
-         inkscape:label="V" />
+         style="fill:#ffffff;stroke-width:0.301312"
+         inkscape:label="V"
+         d="M 27,30 H 37.000001 V 80.000004 H 27 Z m 3,40 H 65.000004 V 80 H 30 Z M 30,50 H 59.999998 V 60 H 30 Z M 30,30 H 65.000004 V 40 H 30 Z" />
     </g>
     <g
        id="g496">
@@ -145,226 +106,38 @@
     </g>
     <g
        id="g585">
-      <rect
-         style="fill:#ffffff;stroke-width:0.303"
-         id="rect514"
-         width="10"
-         height="50"
-         x="225"
-         y="30" />
-      <rect
-         style="fill:#ffffff;stroke-width:0.303"
-         id="rect516"
-         width="10"
-         height="50"
-         x="255"
-         y="30" />
       <path
+         id="path574"
          style="fill:#ffffff;stroke-width:0.303"
-         d="m 235,30 30,45 v 5 H 255 L 225,35 v -5 h 10 -10 z"
-         id="path574" />
-    </g>
-    <g
-       id="g650">
-      <rect
-         style="fill:#ffffff;stroke-width:0.1515"
-         id="rect506"
-         width="10"
-         height="10"
-         x="190"
-         y="30" />
-      <rect
-         style="fill:#ffffff;stroke-width:0.191634"
-         id="rect508"
-         width="10"
-         height="20"
-         x="175"
-         y="45" />
-      <rect
-         style="fill:#ffffff;stroke-width:0.1515"
-         id="rect510"
-         width="10"
-         height="10"
-         x="190"
-         y="70" />
-      <rect
-         style="fill:#ffffff;stroke-width:0.191634"
-         id="rect512"
-         width="10"
-         height="20"
-         x="205"
-         y="45" />
-      <path
-         style="fill:#ffffff;stroke-width:0.303"
-         d="m 185,30 -10,10 v 5 h 10 l 5,-5 V 30 Z"
-         id="path634" />
-      <path
-         style="fill:#ffffff;stroke-width:0.303"
-         d="m 200,40 5,5 h 10 V 40 L 205,30 h -5 z"
-         id="path636" />
-      <path
-         style="fill:#ffffff;stroke-width:0.303"
-         d="m 185,65 5,5 v 10 h -5 L 175,70 v -5 z"
-         id="path638" />
-      <path
-         style="fill:#ffffff;stroke-width:0.303"
-         d="m 200,70 5,-5 h 10 v 5 l -10,10 h -5 z"
-         id="path640" />
-    </g>
-    <g
-       id="g650-6"
-       transform="translate(160)">
-      <rect
-         style="fill:#ffffff;stroke-width:0.1515"
-         id="rect506-7"
-         width="10"
-         height="10"
-         x="190"
-         y="30" />
-      <rect
-         style="fill:#ffffff;stroke-width:0.191634"
-         id="rect508-5"
-         width="10"
-         height="20"
-         x="175"
-         y="45" />
-      <rect
-         style="fill:#ffffff;stroke-width:0.1515"
-         id="rect510-3"
-         width="10"
-         height="10"
-         x="190"
-         y="70" />
-      <rect
-         style="fill:#ffffff;stroke-width:0.191634"
-         id="rect512-5"
-         width="10"
-         height="20"
-         x="205"
-         y="45" />
-      <path
-         style="fill:#ffffff;stroke-width:0.303"
-         d="m 185,30 -10,10 v 5 h 10 l 5,-5 V 30 Z"
-         id="path634-6" />
-      <path
-         style="fill:#ffffff;stroke-width:0.303"
-         d="m 200,40 5,5 h 10 V 40 L 205,30 h -5 z"
-         id="path636-2" />
-      <path
-         style="fill:#ffffff;stroke-width:0.303"
-         d="m 185,65 5,5 v 10 h -5 L 175,70 v -5 z"
-         id="path638-9" />
-      <path
-         style="fill:#ffffff;stroke-width:0.303"
-         d="m 200,70 5,-5 h 10 v 5 l -10,10 h -5 z"
-         id="path640-1" />
-    </g>
-    <g
-       id="g711">
-      <rect
-         style="fill:#ffffff;stroke-width:0.303"
-         id="rect660"
-         width="10"
-         height="35"
-         x="275"
-         y="30" />
-      <rect
-         style="fill:#ffffff;stroke-width:0.303"
-         id="rect664"
-         width="10"
-         height="35"
-         x="295"
-         y="30" />
-      <rect
-         style="fill:#ffffff;stroke-width:0.303"
-         id="rect666"
-         width="10"
-         height="35"
-         x="315"
-         y="30" />
-      <path
-         style="fill:#ffffff;stroke-width:0.303"
-         d="m 295,65 -2,5 h -5 l -3,-5 h -10 l 7,15 h 16 l 7,-15 z"
-         id="path672"
-         sodipodi:nodetypes="ccccccccc" />
-      <path
-         style="fill:#ffffff;stroke-width:0.303"
-         d="m 315,65 -3,5 h -5 l -2,-5 h -10 l 7,15 h 15 l 8,-15 z"
-         id="path672-3"
-         sodipodi:nodetypes="ccccccccc" />
-    </g>
-    <g
-       id="g1007">
-      <rect
-         style="fill:#ffffff;stroke-width:0.303"
-         id="rect801"
-         width="10"
-         height="50"
-         x="385"
-         y="30" />
-      <rect
-         style="fill:#ffffff;stroke-width:0.303"
-         id="rect803"
-         width="25"
-         height="10"
-         x="385"
-         y="30" />
-      <rect
-         style="fill:#ffffff;stroke-width:0.303"
-         id="rect805"
-         width="25"
-         height="10"
-         x="385"
-         y="55" />
-      <rect
-         style="fill:#ffffff;stroke-width:0.303"
-         id="rect809"
-         width="10"
-         height="9"
-         x="413"
-         y="43" />
-      <path
-         style="fill:#ffffff;stroke-width:0.303"
-         d="m 410,40 3,3 h 10 V 40 L 413,30 h -3 z"
-         id="path811"
-         sodipodi:nodetypes="ccccccc" />
-      <path
-         style="fill:#ffffff;stroke-width:0.303"
-         d="m 413,52 -3,3 v 10 h 3 l 10,-10 v -3 z"
-         id="path813" />
-      <path
-         style="fill:#ffffff;stroke-width:0.303"
-         d="m 402,65 10,15 h 11 L 413,65 Z"
-         id="path815"
-         sodipodi:nodetypes="ccccc" />
+         d="m 235,30 30,45 v 5 H 255 L 225,35 v -5 h 10 -10 z m 20,0 h 10 v 50 h -10 z m -30,0 h 10 v 50 h -10 z" />
     </g>
     <g
        id="g1012"
        transform="translate(2)">
-      <rect
-         style="fill:#ffffff;stroke-width:0.303"
-         id="rect817"
-         width="10"
-         height="50"
-         x="430"
-         y="30" />
       <path
-         style="fill:#ffffff;stroke-width:0.315044"
-         d="M 470,30 440,70 H 430 V 67 L 458,30 Z"
-         id="path825"
-         sodipodi:nodetypes="cccccc" />
-      <path
-         style="fill:#ffffff;stroke-width:0.309248"
-         d="m 470,80 h -11 l -15,-31 11,1 z"
          id="path829"
-         sodipodi:nodetypes="ccccc" />
+         style="fill:#ffffff;stroke-width:0.309248"
+         d="m 470,80 h -11 l -15,-31 11,1 z m 0,-50 -30,40 h -10 v -3 l 28,-37 z m -40,0 h 10 v 50 h -10 z" />
     </g>
-    <rect
-       style="fill:#ffffff;stroke-width:0.303"
+    <path
        id="rect1211"
-       width="10"
-       height="10"
-       x="480"
-       y="70" />
+       style="fill:#ffffff;stroke-width:0.303"
+       d="m 480,70 h 10 v 10 h -10 z" />
+    <path
+       id="path3"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#24446d;stroke-width:0;stroke-linecap:round;stroke-linejoin:round"
+       d="m 185,30 -10,10 v 30 l 10,10 h 20 L 215,70 V 40 L 205,30 Z m 5,10 h 10 l 5,5 v 20 l -5,5 h -10 l -5,-5 V 45 Z" />
+    <path
+       id="path3-3"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#24446d;stroke-width:0;stroke-linecap:round;stroke-linejoin:round"
+       d="m 345,30 -10,10 v 30 l 10,10 h 20 L 375,70 V 40 L 365,30 Z m 5,10 h 10 l 5,5 v 20 l -5,5 h -10 l -5,-5 V 45 Z" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#24446d;stroke-width:0;stroke-linecap:round;stroke-linejoin:round"
+       d="m 275,30 h 10 v 35 l 3,5 h 5 l 2,-5 V 30 h 10 v 35 l 2,5 h 5 l 3,-5 V 30 h 10 v 35 l -8,15 H 302 L 300.0102,75.692436 298,80 h -16 l -7,-15 z"
+       id="path4" />
+    <path
+       id="path5"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#24446d;stroke-width:0;stroke-linecap:round;stroke-linejoin:round"
+       d="M 385 30 L 385 80 L 395 80 L 395.04688 65 L 402 65 L 412 80 L 423 80 L 413 65 L 423 55 L 423 40 L 413 30 L 385 30 z M 410 40 L 413 43 L 413 52 L 410 55 L 395 55 L 395 40.148438 L 410 40 z " />
   </g>
 </svg>
