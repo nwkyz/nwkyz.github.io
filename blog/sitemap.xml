@@ -2,12 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.nwyz.eu.org/blog/blog/</loc>
-  </url><url>
     <loc>https://www.nwyz.eu.org/blog/</loc>
+    <lastmod>2024-03-29T00:41:52+08:00</lastmod>
   </url><url>
-    <loc>https://www.nwyz.eu.org/blog/series/</loc>
+    <loc>https://www.nwyz.eu.org/blog/posts/</loc>
+    <lastmod>2024-03-29T00:41:52+08:00</lastmod>
+  </url><url>
+    <loc>https://www.nwyz.eu.org/blog/posts/7-responsible-designing-ai/</loc>
+    <lastmod>2024-03-29T00:41:52+08:00</lastmod>
   </url><url>
     <loc>https://www.nwyz.eu.org/blog/tags/</loc>
+    <lastmod>2024-03-29T00:41:52+08:00</lastmod>
+  </url><url>
+    <loc>https://www.nwyz.eu.org/blog/tags/untagged/</loc>
+    <lastmod>2024-03-29T00:41:52+08:00</lastmod>
+  </url><url>
+    <loc>https://www.nwyz.eu.org/blog/blog/</loc>
+  </url><url>
+    <loc>https://www.nwyz.eu.org/blog/series/</loc>
   </url>
 </urlset>
