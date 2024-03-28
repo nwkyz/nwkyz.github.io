@@ -1,0 +1,4 @@
+.acrylic{
+    backdrop-filter: saturate(150%) blur(8px);
+    opacity: 0.9;
+}

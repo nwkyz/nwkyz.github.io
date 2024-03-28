@@ -2,62 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.nwyz.eu.org/blog/tags/ai/</loc>
-    <lastmod>2023-04-22T13:05:46+08:00</lastmod>
-  </url><url>
-    <loc>https://www.nwyz.eu.org/blog/tags/bailing/</loc>
-    <lastmod>2023-04-22T13:05:46+08:00</lastmod>
-  </url><url>
-    <loc>https://www.nwyz.eu.org/blog/tags/gpt/</loc>
-    <lastmod>2023-04-22T13:05:46+08:00</lastmod>
-  </url><url>
-    <loc>https://www.nwyz.eu.org/blog/</loc>
-    <lastmod>2023-04-22T13:05:46+08:00</lastmod>
-  </url><url>
-    <loc>https://www.nwyz.eu.org/blog/posts/3-introducing-bailing/</loc>
-    <lastmod>2023-04-22T13:05:46+08:00</lastmod>
-  </url><url>
-    <loc>https://www.nwyz.eu.org/blog/tags/language-model/</loc>
-    <lastmod>2023-04-22T13:05:46+08:00</lastmod>
-  </url><url>
-    <loc>https://www.nwyz.eu.org/blog/posts/</loc>
-    <lastmod>2023-04-22T13:05:46+08:00</lastmod>
-  </url><url>
-    <loc>https://www.nwyz.eu.org/blog/tags/</loc>
-    <lastmod>2023-04-22T13:05:46+08:00</lastmod>
-  </url><url>
-    <loc>https://www.nwyz.eu.org/blog/tags/crash-course/</loc>
-    <lastmod>2023-01-06T08:28:01+08:00</lastmod>
-  </url><url>
-    <loc>https://www.nwyz.eu.org/blog/tags/markdown/</loc>
-    <lastmod>2023-01-06T08:28:01+08:00</lastmod>
-  </url><url>
-    <loc>https://www.nwyz.eu.org/blog/posts/001-002-markdown-crashcourse/</loc>
-    <lastmod>2023-01-06T08:28:01+08:00</lastmod>
-  </url><url>
-    <loc>https://www.nwyz.eu.org/blog/tags/tutorial/</loc>
-    <lastmod>2023-01-06T08:28:01+08:00</lastmod>
-  </url><url>
-    <loc>https://www.nwyz.eu.org/blog/tags/beginners/</loc>
-    <lastmod>2023-01-05T16:42:21+08:00</lastmod>
-  </url><url>
-    <loc>https://www.nwyz.eu.org/blog/tags/create-website/</loc>
-    <lastmod>2023-01-05T16:42:21+08:00</lastmod>
-  </url><url>
-    <loc>https://www.nwyz.eu.org/blog/posts/001-001-create-website/</loc>
-    <lastmod>2023-01-05T16:42:21+08:00</lastmod>
-  </url><url>
-    <loc>https://www.nwyz.eu.org/blog/tags/freenom/</loc>
-    <lastmod>2023-01-05T16:42:21+08:00</lastmod>
-  </url><url>
-    <loc>https://www.nwyz.eu.org/blog/tags/github-pages/</loc>
-    <lastmod>2023-01-05T16:42:21+08:00</lastmod>
-  </url><url>
-    <loc>https://www.nwyz.eu.org/blog/tags/no-coding/</loc>
-    <lastmod>2023-01-05T16:42:21+08:00</lastmod>
-  </url><url>
     <loc>https://www.nwyz.eu.org/blog/blog/</loc>
   </url><url>
+    <loc>https://www.nwyz.eu.org/blog/</loc>
+  </url><url>
     <loc>https://www.nwyz.eu.org/blog/series/</loc>
+  </url><url>
+    <loc>https://www.nwyz.eu.org/blog/tags/</loc>
   </url>
 </urlset>
